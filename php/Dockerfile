@@ -88,10 +88,6 @@ RUN mkdir /var/log/php-fpm && \
 RUN docker-php-ext-configure gd --with-freetype-dir=/usr --with-jpeg-dir=/usr --with-png-dir=/usr \
     && docker-php-ext-install gd
 
-# Install xdebug
-RUN cd /tmp/ && git clone https://github.com/xdebug/xdebug.git \
-    && cd xdebug && phpize && ./configure --enable-xdebug && make \
-    && mkdir /usr/lib/php7/ && cp modules/xdebug.so /usr/lib/php7/xdebug.so \
-    && touch /usr/local/etc/php/ext-xdebug.ini \
-    && rm -r /tmp/xdebug \
-    && apt-get purge -y --auto-remove
+RUN curl https://getcomposer.org/installer | \
+    php -- --install-dir=/usr/bin/ --filename=composer
+

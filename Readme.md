@@ -1,3 +1,11 @@
+### Instalacja
+
+```
+ $ docker-compose build
+ $ docker-compose run php composer install
+
+```
+
 ### Run
 
 ```

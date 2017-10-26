@@ -5,6 +5,7 @@ services:
     image: nginx:latest
     depends_on: 
       - php
+      - mysql
     volumes:
       - ./web:/var/www/html
       - ./nginx/sites-enabled/default.conf:/etc/nginx/sites-enabled/default.conf
@@ -21,7 +22,6 @@ services:
     volumes:
       - ./php/php.ini:/usr/local/etc/php/php.ini
       - ./php/php-fpm.conf:/usr/local/etc/php-fpm.conf
-      - ./php/ext-xdebug.ini:/usr/local/etc/php/conf.d/ext-xdebug.ini
     volumes_from:
       - appdata
     env_file: .env
