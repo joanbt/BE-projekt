@@ -16,7 +16,7 @@
 
 	http://127.0.0.1:8080/
 
-> All login credentials are in .env file
+> Wszystkie dane do logowania znajdują się w pliku .env
 
 ## Moduły
 
