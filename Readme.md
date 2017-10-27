@@ -3,6 +3,7 @@
 ```
  $ docker-compose build
  $ docker-compose run php composer install
+ $ docker-compose run php sh /var/install/installMagento.sh
 
 ```
 
@@ -18,7 +19,7 @@
 
 ### Magento Admin
 
-	http://127.0.0.1:8880/admin_aro8a3/
+	http://127.0.0.1:8880/admin/
 
 ### phpMyAdmin
 

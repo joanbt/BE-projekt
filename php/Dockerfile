@@ -33,7 +33,6 @@ RUN \
   libicu-dev \
   libmcrypt-dev \
   libxslt1-dev \
-
   re2c \
   libpng++-dev \
   libpng3 \
@@ -91,3 +90,7 @@ RUN docker-php-ext-configure gd --with-freetype-dir=/usr --with-jpeg-dir=/usr --
 RUN curl https://getcomposer.org/installer | \
     php -- --install-dir=/usr/bin/ --filename=composer
 
+RUN mkdir /var/install
+ADD ./php/installMagento.sh /var/install/
+ADD .env /var/install/
+RUN chmod -R +x /var/install/
