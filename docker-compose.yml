@@ -18,8 +18,7 @@ services:
 
   php:
     build:
-      context: .
-      dockerfile: ./php/Dockerfile
+      context: ./php
     volumes:
       - ./php/php.ini:/usr/local/etc/php/php.ini
       - ./php/php-fpm.conf:/usr/local/etc/php-fpm.conf

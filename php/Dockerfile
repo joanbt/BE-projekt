@@ -91,6 +91,8 @@ RUN curl https://getcomposer.org/installer | \
     php -- --install-dir=/usr/bin/ --filename=composer
 
 RUN mkdir /var/install
-ADD ./php/installMagento.sh /var/install/
+ADD installMagento.sh /var/install/
 ADD .env /var/install/
+ADD disableModules.sh /var/install/
 RUN chmod -R +x /var/install/
+
