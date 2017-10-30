@@ -13,5 +13,3 @@
   chmod -R ug+rws /var/www/html/var
 
   chmod ug+x /var/www/html/bin/magento
-
-  sleep 60
