@@ -90,9 +90,12 @@ RUN docker-php-ext-configure gd --with-freetype-dir=/usr --with-jpeg-dir=/usr --
 RUN curl https://getcomposer.org/installer | \
     php -- --install-dir=/usr/bin/ --filename=composer
 
+
 RUN mkdir /var/install
 ADD installMagento.sh /var/install/
+RUN mkdir /var/www/.composer
+ADD auth.json /var/www/.composer/
+RUN chown -R www-data:www-data /var/www/.composer/ && chmod -R g+xw /var/www/.composer/
 ADD .env /var/install/
 ADD disableModules.sh /var/install/
 RUN chmod -R +x /var/install/
-
