@@ -14,5 +14,4 @@ ENV_VARIABLES=".env"
     --admin-firstname=${ADMIN_FIRSTNAME} \
     --admin-lastname=${ADMIN_LASTNAME} \
     --admin-password=${ADMIN_PASSWORD} \
-    --cleanup-database \
-    --base-url="http://ikea.com/"
+    --cleanup-database 
