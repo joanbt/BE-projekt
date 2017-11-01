@@ -27,3 +27,11 @@
 > Wszystkie dane do logowania znajdują się w pliku .env
 
 
+### parser 
+```
+Uruchomcie /Ikea_parser/Ikea_parser.sln i rozpakujcie DATA.zip.
+W projekcie musicie zmienic PATHTOFILE na sciezke do rozpakowanego DATA.zip
+```
+
+
+
