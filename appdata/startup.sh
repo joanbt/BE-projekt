@@ -1,8 +1,8 @@
 #!/bin/sh
 #
 # Set the correct file permissions for Magento 2
-
-  echo "Setting permission..."
+while true;
+do
   chgrp -R 33 /var/www
   chmod -R g+rs /var/www
 
@@ -13,3 +13,6 @@
   chmod -R ug+rws /var/www/html/var
 
   chmod ug+x /var/www/html/bin/magento
+  
+  sleep 60
+done
