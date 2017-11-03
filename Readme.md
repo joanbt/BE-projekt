@@ -32,6 +32,3 @@
 Uruchomcie /Ikea_parser/Ikea_parser.sln i rozpakujcie DATA.zip.
 W projekcie musicie zmienic PATHTOFILE na sciezke do rozpakowanego DATA.zip
 ```
-
-
-
