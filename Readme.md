@@ -32,9 +32,3 @@
 Uruchomcie /Ikea_parser/Ikea_parser.sln i rozpakujcie DATA.zip.
 W projekcie musicie zmienic PATHTOFILE na sciezke do rozpakowanego DATA.zip
 ```
-
-### Uzycie myTheme
-Sprawdzamy czy istnieje  /web/app/design/frontend/Magento/theme-frontend-my .Jesli nie istinieje - musimy skopiowac ten folder (w przypadku potrzeby zmieniamy uprawnienia uzywac sudo chmod) .
-Wchodzimy do panelu admistratora stores->configuration->design i zmieniamy "luma" na "my".Zapisujemy zmiany.
-Potem system->cache managment->flush cache. Sprawdzamy glowna strone.
-
