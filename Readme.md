@@ -32,3 +32,21 @@
 Uruchomcie /Ikea_parser/Ikea_parser.sln i rozpakujcie DATA.zip.
 W projekcie musicie zmienic PATHTOFILE na sciezke do rozpakowanego DATA.zip
 ```
+
+### Dump bazy danych
+
+```
+ $ docker-compose exec mysql bash
+ $ mysqldump -uroot -p${DATABASE_ROOT_PASSWORD} --database ${DATABASE_NAME} > docker-entrypoint-initdb.d/2_db.sql
+```
+
+##### Aby wczytać bazę danych należy:
+
+ - usunąć kontener mysql:
+```
+ $ docker rm beprojekt_mysql_1
+```
+ - ponownie uruchomić projekt:
+```
+ $ docker-compose up
+```
