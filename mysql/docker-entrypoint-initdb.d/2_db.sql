@@ -105,7 +105,7 @@ CREATE TABLE `admin_user` (
 
 LOCK TABLES `admin_user` WRITE;
 /*!40000 ALTER TABLE `admin_user` DISABLE KEYS */;
-INSERT INTO `admin_user` VALUES (1,'admin','admin','admin@e.com','admin','6c179f239e04148e853fc85b5f5f57d2fc10c444a2492bbb5ca43717ca832983:VnWpyMAC358oAvtFAGo1wnBMZkITB2VP:1','2017-11-03 18:45:08','2017-11-03 20:24:35','2017-11-03 20:24:35',3,0,1,'a:1:{s:11:\"configState\";a:13:{s:12:\"design_theme\";s:1:\"1\";s:11:\"design_head\";s:1:\"0\";s:27:\"design_search_engine_robots\";s:1:\"0\";s:13:\"design_header\";s:1:\"0\";s:13:\"design_footer\";s:1:\"0\";s:16:\"design_watermark\";s:1:\"0\";s:17:\"design_pagination\";s:1:\"0\";s:12:\"design_email\";s:1:\"0\";s:15:\"general_country\";s:1:\"1\";s:14:\"general_region\";s:1:\"0\";s:14:\"general_locale\";s:1:\"0\";s:25:\"general_store_information\";s:1:\"0\";s:25:\"general_single_store_mode\";s:1:\"0\";}}',NULL,NULL,'en_US',0,NULL,NULL);
+INSERT INTO `admin_user` VALUES (1,'admin','admin','admin@example.com','admin','6c179f239e04148e853fc85b5f5f57d2fc10c444a2492bbb5ca43717ca832983:VnWpyMAC358oAvtFAGo1wnBMZkITB2VP:1','2017-11-03 18:45:08','2017-11-03 20:24:35','2017-11-03 20:24:35',3,0,1,'a:1:{s:11:\"configState\";a:13:{s:12:\"design_theme\";s:1:\"1\";s:11:\"design_head\";s:1:\"0\";s:27:\"design_search_engine_robots\";s:1:\"0\";s:13:\"design_header\";s:1:\"0\";s:13:\"design_footer\";s:1:\"0\";s:16:\"design_watermark\";s:1:\"0\";s:17:\"design_pagination\";s:1:\"0\";s:12:\"design_email\";s:1:\"0\";s:15:\"general_country\";s:1:\"1\";s:14:\"general_region\";s:1:\"0\";s:14:\"general_locale\";s:1:\"0\";s:25:\"general_store_information\";s:1:\"0\";s:25:\"general_single_store_mode\";s:1:\"0\";}}',NULL,NULL,'en_US',0,NULL,NULL);
 /*!40000 ALTER TABLE `admin_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
