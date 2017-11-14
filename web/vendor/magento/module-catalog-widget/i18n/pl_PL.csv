@@ -1,0 +1,20 @@
+"Conditions Combination","Kombinacja warunków"
+"Product Attribute","Cecha produktu"
+SKU,SKU
+"Please choose a condition to add.","Wybierz warunek do dodania."
+"Add to Cart","Dodaj do koszyka"
+"In stock","W magazynie"
+"Out of stock","Brak w magazynie"
+"Add to Wish List","Dodaj do schowka"
+"Add to Compare",Porównaj
+"Catalog Products List","Lista produktów"
+"List of Products","Lista produktów"
+Title,Tytuł
+"Display Page Control","Pokazuj nawigację stron"
+"Number of Products per Page","Ilość produktów na stronie"
+"Number of Products to Display","Ilość produktów do pokazania"
+Template,Szablon
+"Products Grid Template","Szablon Siatek Produktów"
+"Cache Lifetime (Seconds)","Czas ważności cache (sekundy)"
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 domyślnie, jeśli nie zdefiniowano. Opróżnij cache bloków HTML, aby odświerzyć natychmiast."
+Conditions,Warunki
