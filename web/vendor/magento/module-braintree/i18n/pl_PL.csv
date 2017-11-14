@@ -1,0 +1,94 @@
+Country,Kraj
+"Allowed Credit Card Types","Dopuszczone rodzaje kart kredytowych"
+"Add Rule","Dodaj regułę"
+"Braintree Settlement Report","Raport rozliczenia Braintree"
+"Sorry, but something went wrong","Przepraszamy, coś poszło nie tak"
+"We can't initialize checkout.","Nie można zainicjować zamówienia."
+"No authorization transaction to proceed capture.","Nie ma autoryzacji transakcji do kontynuowania przechwytywania."
+"Braintree error response.","Błąd odpowiedzi Braintree."
+"Payment method nonce can't be retrieved.","Nie można pobrać identyfikatora jednorazowego metody płatności."
+"Wrong transaction status","Błędny status transakcji"
+Authorize,Autoryzujautoryzuj
+"Authorize and Capture","Autoryzuj i przechwyć"
+"--Please Select--","-- Prosimy wybrać --"
+"Please agree to all the terms and conditions before placing the order.","Prosimy zatwierdzić warunki zamawiania przed jego złożeniem."
+"Credit Card Type","Rodzaj karty kredytowej"
+"Credit Card Number","Numer karty kredytowej"
+"Please, enter valid Credit Card Number","Wprowadź prawidłowy numer karty kredytowej"
+"Expiration Date","Data ważności"
+"Please, enter valid Expiration Date","Podaj prawidłową datę wygaśnięcia"
+"Card Verification Number","Numer weryfikacyjny karty"
+"Please, enter valid Card Verification Number","Please, enter valid Card Verification Number"
+ending,końcówka
+expires,wygasa
+"Are you sure you want to delete this PayPal account","Are you sure you want to delete this PayPal account"
+"PayPal Account","Konto PayPal"
+"PayPal Logo","PayPal Logo"
+Actions,Operacje
+Delete,Usuń
+"Credit Card Information","Informacje karty kredytowej"
+"What is this?","Co to jest?"
+"Save for later use.","Zapisz do późniejszego wykorzystania."
+"Place Order","Złóż zamówienie"
+"This payment is not available","Ta płatność nie jest dostępna"
+MM,MM
+YY,RR
+"Please try again with another form of payment.","Proszę spróbować ponownie z inną formę płatności."
+"Sorry, but something went wrong.","Przepraszamy, coś poszło nie tak."
+Payment,Payment
+Braintree,Braintree
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase."
+"Enable this Solution","Włącz to rozwiązanie"
+"Enable PayPal through Braintree","Włącz PayPal za pośrednictwem Braintree"
+"Vault Enabled","Vault Enabled"
+"Basic Braintree Settings","Ustawienia podstawowe Braintree"
+Title,Tytuł
+Environment,Środowisko
+"Payment Action","Akcja płatności"
+"Merchant ID","ID sprzedawcy"
+"Public Key","Klucz publiczny"
+"Private Key","Klucz prywatny"
+"Advanced Braintree Settings","Ustawienia zaawansowane Braintree"
+"Vault Title","Vault Title"
+"Merchant Account ID","Identyfikator konta sprzedawcy"
+"Advanced Fraud Protection","Zaawansowane zabezpieczenie przed oszustwem"
+"Kount Merchant ID","Kount Merchant ID"
+Debug,"Tryb debug"
+"CVV Verification","Weryfikacja CVV"
+"Credit Card Types","Typy kart kredytowych"
+"Sort Order","Kolejność sortowania"
+"Country Specific Settings","Określone ustawienia kraju"
+"Payment from Applicable Countries","Płatność ze stosownych krajów"
+"Payment from Specific Countries","Płatność z wybranych krajów"
+"Country Specific Credit Card Types","Rodzaj karty kredytowej kraju"
+"PayPal through Braintree","PayPal za pośrednictwem Braintree"
+"Override Merchant Name","Zastąp nazwę sprzedawcy"
+"Require Customer's Billing Address","Require Customer's Billing Address"
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","Pozwala edytować adres dostawy podczas realizacji transakcji na stronie PayPal"
+"Display on Shopping Cart","Wyświetl w koszyk"
+"Skip Order Review","Skip Order Review"
+"3D Secure Verification Settings","Ustawienia bezpiecznej weryfikacji 3D"
+"3D Secure Verification","3D bezpieczna weryfikacja"
+"Threshold Amount","Threshold Amount"
+"Verify for Applicable Countries","Verify for Applicable Countries"
+"Verify for Specific Countries","Verify for Specific Countries"
+"Dynamic Descriptors","Dynamic Descriptors"
+Name,Name
+Phone,Phone
+URL,URL
+"Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format."
+Select...,Wybierz...
+Status,Status
+"Transaction Type","Typ transakcji"
+"Payment Type","Rodzaj płatności"
+"PayPal Payment ID","PayPal Payment ID"
+"Created At","Created At"
+"Transaction ID","ID transakcji"
+"Order ID","ID zamówienia"
+Type,Rodzaj
+Amount,Kwota
+"Settlement Code","Settlement Code"
+"Settlement Response Text","Settlement Response Text"
+"Refund Ids","Refund Ids"
+"Settlement Batch ID","Settlement Batch ID"
+Currency,Waluta
