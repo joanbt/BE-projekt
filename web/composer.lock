@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8afa8c171f70ddbf24f20e266cd9f08e",
+    "content-hash": "694278b1df4daeced601edbaf95a6912",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -5139,80 +5139,6 @@
             "time": "2017-02-27T21:19:07+00:00"
         },
         {
-            "name": "mageplaza/magento-2-polish-language-pack",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mageplaza/magento-2-polish-language-pack.git",
-                "reference": "36fecaa8cf929f473c3e704e50670c6225a381b2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mageplaza/magento-2-polish-language-pack/zipball/36fecaa8cf929f473c3e704e50670c6225a381b2",
-                "reference": "36fecaa8cf929f473c3e704e50670c6225a381b2",
-                "shasum": ""
-            },
-            "require": {
-                "mageplaza/module-core": "^1.3.1|dev-master"
-            },
-            "type": "magento2-language",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mageplaza team",
-                    "email": "hi@mageplaza.com",
-                    "homepage": "https://www.mageplaza.com",
-                    "role": "Leader"
-                }
-            ],
-            "description": "Polish language package for Magento 2",
-            "homepage": "https://www.mageplaza.com",
-            "time": "2017-08-24T04:36:31+00:00"
-        },
-        {
-            "name": "mageplaza/module-core",
-            "version": "1.3.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mageplaza/module-core.git",
-                "reference": "a47cdd60ddc6341cc7b4d39d8e567c153563a612"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/a47cdd60ddc6341cc7b4d39d8e567c153563a612",
-                "reference": "a47cdd60ddc6341cc7b4d39d8e567c153563a612",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Mageplaza\\Core\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Mageplaza",
-                    "email": "hi@mageplaza.com",
-                    "homepage": "https://www.mageplaza.com",
-                    "role": "Leader"
-                }
-            ],
-            "description": "Mageplaza Core for Magento 2",
-            "time": "2017-10-13T01:14:46+00:00"
-        },
-        {
             "name": "monolog/monolog",
             "version": "1.16.0",
             "source": {
@@ -8925,8 +8851,7 @@
     "aliases": [],
     "minimum-stability": "alpha",
     "stability-flags": {
-        "composer/composer": 15,
-        "mageplaza/magento-2-polish-language-pack": 20
+        "composer/composer": 15
     },
     "prefer-stable": true,
     "prefer-lowest": false,
