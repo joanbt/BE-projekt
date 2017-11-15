@@ -37,7 +37,7 @@ W projekcie musicie zmienic PATHTOFILE na sciezke do rozpakowanego DATA.zip
 
 ```
  $ docker-compose exec mysql bash
- $ mysqldump -uroot -p${DATABASE_ROOT_PASSWORD} --database ${DATABASE_NAME} > docker-entrypoint-initdb.d/2_db.sql
+ $ mysqldump -uroot -p${DATABASE_ROOT_PASSWORD} --databases ${DATABASE_NAME} > docker-entrypoint-initdb.d/2_db.sql
 ```
 
 ##### Aby wczytać bazę danych należy:
