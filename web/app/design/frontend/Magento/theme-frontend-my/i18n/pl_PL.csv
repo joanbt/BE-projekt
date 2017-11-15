@@ -2601,6 +2601,7 @@ Conditions,Warunki,module,Magento_CatalogWidget
 City,Miasto,module,Magento_Checkout
 Country,Kraj,module,Magento_Checkout
 State/Province,Województwo,module,Magento_Checkout
+"Review & Payments","TEST",module,Magento_Checkout
 "Zip/Postal Code","Kod pocztowy",module,Magento_Checkout
 "My Cart (1 item)","Koszyk (1)",module,Magento_Checkout
 "My Cart (%1 items)","Koszyk (%1)",module,Magento_Checkout
@@ -3475,7 +3476,7 @@ Order,Zamówienie,module,Magento_Customer
 Purchased,Zakupiono,module,Magento_Customer
 "Bill-to Name","Rachunek na",module,Magento_Customer
 "Ship-to Name","Dostawa do",module,Magento_Customer
-"Order Total",Podsumowanie,module,Magento_Customer
+"Order Total",Pzaodsumowanie,module,Magento_Customer
 "Purchase Point","Miejsce zakupu",module,Magento_Customer
 "Customer View","Widok klienta",module,Magento_Customer
 "There are no items in customer's shopping cart.","Koszyk jest pusty.",module,Magento_Customer
