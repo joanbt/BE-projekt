@@ -2772,6 +2772,7 @@ Summary,Podsumowanie,module,Magento_Checkout
 "Shipping Address","Adres wysyłki",module,Magento_Checkout
 "We'll send your order confirmation here.","Na ten adres wyślemy potwierdzenie zamówienia.",module,Magento_Checkout
 Payment,Płatność,module,Magento_Checkout
+Cart Subtotal,Suma w koszyku,module,Magento_Checkout
 "Not yet calculated","Jeszcze nie obliczone",module,Magento_Checkout
 "We received your order!","Otrzymaliśmy zamówienie!",module,Magento_Checkout
 "Thank you for your purchase!","Dziękujemy za złożenie zamówienia!",module,Magento_Checkout
