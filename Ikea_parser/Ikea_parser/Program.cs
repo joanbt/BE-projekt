@@ -36,10 +36,13 @@ namespace Ikea_parser
             List<float> prices = new List<float>();
             List<string> names = new List<string>();
             List<string> imageLink = new List<string>();
+            List<string> sizes = new List<string>();
             var doc = new HtmlDocument();
             string fulldescription = "";
             string category = "";
             string subcategory = "";
+            string metatitle = "";
+            string keywords = "";
             Random rnd = new Random();
             doc.Load(PATHTOFILE + FILENAME);
             
@@ -49,6 +52,22 @@ namespace Ikea_parser
             {
                 var desc = mdnode.Attributes["content"];
                 fulldescription = DecodeFromUtf8(desc.Value);
+            }
+
+            var mtnode = doc.DocumentNode.SelectSingleNode("//meta[@name='title']");
+
+            if (mtnode != null)
+            {
+                var desc = mtnode.Attributes["content"];
+                metatitle = DecodeFromUtf8(desc.Value);
+            }
+
+            var mknode = doc.DocumentNode.SelectSingleNode("//meta[@name='keywords']");
+
+            if (mtnode != null)
+            {
+                var desc = mknode.Attributes["content"];
+                keywords = DecodeFromUtf8(desc.Value);
             }
 
             var mcnode = doc.DocumentNode.SelectSingleNode("//meta[@name='"+CATEGORYMETANAME+"']");
@@ -89,6 +108,23 @@ namespace Ikea_parser
                 imageLink.Add(data);
             }
 
+            var htmlSizes = doc.DocumentNode.SelectNodes("//div[@class='moreInfo']");
+            foreach (var node in htmlSizes)
+            {
+                bool added = false;
+                foreach (var node2 in node.SelectNodes(".//span[@class='size']"))
+                {
+                    string val = DecodeFromUtf8(node2.InnerHtml.ToString().Replace("\n", "").Replace("\t", "").Replace(":","=").Replace(",","|").Replace(" ",""));
+                    if (val!="")
+                    {
+                        sizes.Add(val);
+                        added = true;
+                        break;
+                    }
+                }
+                if (!added) sizes.Add("");
+            }
+
             System.IO.Directory.CreateDirectory(PATHTOFILE + "IMAGES");
             if (first)
             {
@@ -103,7 +139,7 @@ namespace Ikea_parser
                 {
                     sw.WriteLine(i + DecodeFromUtf8(names[i].ToString()) + "||Default|simple|" +
                         "\"Default Category/" + category +  "|" + "Default Category/" + category + "/" + subcategory + "\"" + "|base|" + DecodeFromUtf8(names[i].ToString()) + "|"  + "\""+fulldescription+ "\"" +
-                        "|||1||\"Catalog, Search\"|" + prices[i].ToString().Replace(",", ".") + "||||" + i + DecodeFromUtf8(names[i].ToString()) + "|\"Meta Title\"|\"meta1, meta2, meta3\"|\"meta description\"|" + getBetween(imageLink[i], "/", ".JPG") + ".JPG" + "|" + "|||" + getBetween(imageLink[i], "/", ".JPG") + ".JPG" + "||\"2015-10-25 03:33:33\"|\"2015-10-25 03:33:33\"|||||||||||||||||" + rnd.Next(0, 100) + "|||||||||||||||||||||||||||||||||||");
+                        "||" + rnd.Next(0, 20) + "|1||\"Catalog, Search\"|" + prices[i].ToString().Replace(",", ".") + "||||" + i + DecodeFromUtf8(names[i].ToString()) + "|\"" + metatitle + "\"|\"" + keywords + "\"|\"" + fulldescription + "\"|" + getBetween(imageLink[i], "/", ".JPG") + ".JPG" + "|" + "|" + getBetween(imageLink[i], "/", ".JPG") + ".JPG" + "||" + getBetween(imageLink[i], "/", ".JPG") + ".JPG" + "||\"2015-10-25 03:33:33\"|\"2015-10-25 03:33:33\"|||\"Block after Info Column\"|||||||||||||" + "\"" + sizes[i] + "\"" + "|" + rnd.Next(0, 100) + "|0|1|0|0|1|1|1|10000|1|1|1|1|1|1|1|1|0|0|0|1|||||||||||||||");
                 }
                 if (System.IO.File.Exists(PATHTOFILE + imageLink[i]) && !System.IO.File.Exists(PATHTOFILE + "IMAGES//" + getBetween(imageLink[i], "/", ".JPG") + ".JPG"))
                 {
