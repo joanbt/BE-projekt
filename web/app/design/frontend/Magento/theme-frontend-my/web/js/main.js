@@ -16,12 +16,15 @@ st=new Date().getTime();
 
 $("button,input,img").on("mouseleave", function(event) {
 end=new Date().getTime();
-var text;
-	if(event.target.title!=undefined)
-		text=event.target.title;
-	else
-		text=event.target.name;
+var text="searchString";
 
+	if(event.target.name!=undefined)
+		text=event.target.name;
+	else
+		text=event.target.title;
+	
+	if(text=="q")
+		text="searchString";
     	ga('send', 'event', 'UserTiming', text+" in "+(end-st)/1000+" sec");
 	ga('send', 'timing', 'UserAction', 'hovering', (end-st));
 });
