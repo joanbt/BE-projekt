@@ -12,6 +12,7 @@ function($) {
 
 $("button,input,img").on("mouseenter", function(event) {
 st=new Date().getTime();
+
 });
 
 $("button,input,img").on("mouseleave", function(event) {
@@ -25,8 +26,17 @@ var text="searchString";
 	
 	if(text=="q")
 		text="searchString";
-    	ga('send', 'event', 'UserTiming', text+" in "+(end-st)/1000+" sec");
-	ga('send', 'timing', 'UserAction', 'hovering', (end-st));
+
+
+    	//ga('send', 'event', 'UserTiming', text+" in "+(end-st)/1000+" sec");
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-109686091-1']);
+  _gaq.push(['_trackPageview']);
+	ga('send', 'timing', 'Action', text, end-st);
+_gaq.push(['_trackTiming', 'Action', text, end-st]);
+
+
 });
 
 
