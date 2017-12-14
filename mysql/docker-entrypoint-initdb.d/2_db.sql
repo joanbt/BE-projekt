@@ -114,7 +114,7 @@ CREATE TABLE `admin_user` (
 
 LOCK TABLES `admin_user` WRITE;
 /*!40000 ALTER TABLE `admin_user` DISABLE KEYS */;
-INSERT INTO `admin_user` VALUES (1,'admin','admin','admin@example.com','admin','cffc09d0f9ac3f3dbe5c6472951cb0aac109889ba783d2a99b0ae6aa93578473:QAQlBHvzMhNX7jWEfOd8Ql63vBzDL1xG:1','2017-10-30 20:49:43','2017-11-25 15:53:31','2017-11-25 15:53:31',23,0,1,'a:1:{s:11:\"configState\";a:61:{s:15:\"general_country\";s:1:\"1\";s:14:\"general_locale\";s:1:\"1\";s:14:\"general_region\";s:1:\"1\";s:25:\"general_store_information\";s:1:\"1\";s:25:\"general_single_store_mode\";s:1:\"1\";s:12:\"design_theme\";s:1:\"1\";s:11:\"design_head\";s:1:\"1\";s:27:\"design_search_engine_robots\";s:1:\"0\";s:13:\"design_header\";s:1:\"1\";s:13:\"design_footer\";s:1:\"1\";s:16:\"design_watermark\";s:1:\"0\";s:17:\"design_pagination\";s:1:\"0\";s:12:\"design_email\";s:1:\"0\";s:31:\"advanced_modules_disable_output\";s:1:\"1\";s:16:\"currency_options\";s:1:\"1\";s:16:\"checkout_options\";s:1:\"1\";s:13:\"checkout_cart\";s:1:\"1\";s:18:\"checkout_cart_link\";s:1:\"1\";s:16:\"checkout_sidebar\";s:1:\"1\";s:23:\"checkout_payment_failed\";s:1:\"1\";s:11:\"web_default\";s:1:\"1\";s:10:\"web_cookie\";s:1:\"0\";s:18:\"carriers_tablerate\";s:1:\"1\";s:12:\"carriers_ups\";s:1:\"1\";s:17:\"carriers_flatrate\";s:1:\"1\";s:21:\"carriers_freeshipping\";s:1:\"1\";s:13:\"carriers_usps\";s:1:\"0\";s:14:\"carriers_fedex\";s:1:\"0\";s:12:\"carriers_dhl\";s:1:\"0\";s:31:\"payment_other_braintree_section\";s:1:\"0\";s:38:\"payment_other_paypal_payment_solutions\";s:1:\"0\";s:21:\"payment_other_checkmo\";s:1:\"1\";s:26:\"payment_other_banktransfer\";s:1:\"1\";s:28:\"payment_other_cashondelivery\";s:1:\"1\";s:21:\"payment_other_account\";s:1:\"1\";s:41:\"payment_other_braintree_section_braintree\";s:1:\"0\";s:60:\"payment_other_braintree_section_braintree_braintree_required\";s:1:\"1\";s:60:\"payment_other_braintree_section_braintree_braintree_advanced\";s:1:\"0\";s:68:\"payment_other_braintree_section_braintree_braintree_country_specific\";s:1:\"0\";s:58:\"payment_other_braintree_section_braintree_braintree_paypal\";s:1:\"0\";s:60:\"payment_other_braintree_section_braintree_braintree_3dsecure\";s:1:\"0\";s:48:\"payment_other_paypal_payment_solutions_wps_other\";s:1:\"0\";s:74:\"payment_other_paypal_payment_solutions_wps_other_express_checkout_required\";s:1:\"1\";s:117:\"payment_other_paypal_payment_solutions_wps_other_express_checkout_required_express_checkout_required_express_checkout\";s:1:\"1\";s:60:\"payment_other_paypal_payment_solutions_wps_other_settings_ec\";s:1:\"1\";s:81:\"payment_other_paypal_payment_solutions_wps_other_settings_ec_settings_ec_advanced\";s:1:\"0\";s:116:\"payment_other_paypal_payment_solutions_wps_other_settings_ec_settings_ec_advanced_express_checkout_billing_agreement\";s:1:\"0\";s:116:\"payment_other_paypal_payment_solutions_wps_other_settings_ec_settings_ec_advanced_express_checkout_settlement_report\";s:1:\"0\";s:107:\"payment_other_paypal_payment_solutions_wps_other_settings_ec_settings_ec_advanced_express_checkout_frontend\";s:1:\"0\";s:61:\"payment_other_paypal_payment_solutions_express_checkout_other\";s:1:\"0\";s:87:\"payment_other_paypal_payment_solutions_express_checkout_other_express_checkout_required\";s:1:\"1\";s:130:\"payment_other_paypal_payment_solutions_express_checkout_other_express_checkout_required_express_checkout_required_express_checkout\";s:1:\"1\";s:73:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec\";s:1:\"1\";s:94:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec_settings_ec_advanced\";s:1:\"0\";s:129:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec_settings_ec_advanced_express_checkout_billing_agreement\";s:1:\"0\";s:129:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec_settings_ec_advanced_express_checkout_settlement_report\";s:1:\"0\";s:120:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec_settings_ec_advanced_express_checkout_frontend\";s:1:\"0\";s:18:\"payment_other_free\";s:1:\"0\";s:27:\"payment_other_purchaseorder\";s:1:\"0\";s:37:\"payment_other_authorizenet_directpost\";s:1:\"0\";s:20:\"dev_translate_inline\";s:1:\"0\";}}',NULL,NULL,'en_US',0,NULL,NULL);
+INSERT INTO `admin_user` VALUES (1,'admin','admin','admin@example.com','admin','cc1c7fcaad69f9b8ca4a6d32bb779b3e9ce34d7b79bc2af599164235aaee0408:Vejthr04TDfIPcHTRZJmepxmawYnRxHL:1','2017-10-30 20:49:43','2017-12-11 16:51:13','2017-12-11 16:51:13',26,0,1,'a:1:{s:11:\"configState\";a:61:{s:15:\"general_country\";s:1:\"1\";s:14:\"general_locale\";s:1:\"1\";s:14:\"general_region\";s:1:\"1\";s:25:\"general_store_information\";s:1:\"1\";s:25:\"general_single_store_mode\";s:1:\"1\";s:12:\"design_theme\";s:1:\"1\";s:11:\"design_head\";s:1:\"1\";s:27:\"design_search_engine_robots\";s:1:\"0\";s:13:\"design_header\";s:1:\"1\";s:13:\"design_footer\";s:1:\"1\";s:16:\"design_watermark\";s:1:\"0\";s:17:\"design_pagination\";s:1:\"0\";s:12:\"design_email\";s:1:\"0\";s:31:\"advanced_modules_disable_output\";s:1:\"1\";s:16:\"currency_options\";s:1:\"1\";s:16:\"checkout_options\";s:1:\"1\";s:13:\"checkout_cart\";s:1:\"1\";s:18:\"checkout_cart_link\";s:1:\"1\";s:16:\"checkout_sidebar\";s:1:\"1\";s:23:\"checkout_payment_failed\";s:1:\"1\";s:11:\"web_default\";s:1:\"1\";s:10:\"web_cookie\";s:1:\"0\";s:18:\"carriers_tablerate\";s:1:\"1\";s:12:\"carriers_ups\";s:1:\"1\";s:17:\"carriers_flatrate\";s:1:\"1\";s:21:\"carriers_freeshipping\";s:1:\"1\";s:13:\"carriers_usps\";s:1:\"0\";s:14:\"carriers_fedex\";s:1:\"0\";s:12:\"carriers_dhl\";s:1:\"0\";s:31:\"payment_other_braintree_section\";s:1:\"0\";s:38:\"payment_other_paypal_payment_solutions\";s:1:\"0\";s:21:\"payment_other_checkmo\";s:1:\"1\";s:26:\"payment_other_banktransfer\";s:1:\"1\";s:28:\"payment_other_cashondelivery\";s:1:\"1\";s:21:\"payment_other_account\";s:1:\"1\";s:41:\"payment_other_braintree_section_braintree\";s:1:\"0\";s:60:\"payment_other_braintree_section_braintree_braintree_required\";s:1:\"1\";s:60:\"payment_other_braintree_section_braintree_braintree_advanced\";s:1:\"0\";s:68:\"payment_other_braintree_section_braintree_braintree_country_specific\";s:1:\"0\";s:58:\"payment_other_braintree_section_braintree_braintree_paypal\";s:1:\"0\";s:60:\"payment_other_braintree_section_braintree_braintree_3dsecure\";s:1:\"0\";s:48:\"payment_other_paypal_payment_solutions_wps_other\";s:1:\"0\";s:74:\"payment_other_paypal_payment_solutions_wps_other_express_checkout_required\";s:1:\"1\";s:117:\"payment_other_paypal_payment_solutions_wps_other_express_checkout_required_express_checkout_required_express_checkout\";s:1:\"1\";s:60:\"payment_other_paypal_payment_solutions_wps_other_settings_ec\";s:1:\"1\";s:81:\"payment_other_paypal_payment_solutions_wps_other_settings_ec_settings_ec_advanced\";s:1:\"0\";s:116:\"payment_other_paypal_payment_solutions_wps_other_settings_ec_settings_ec_advanced_express_checkout_billing_agreement\";s:1:\"0\";s:116:\"payment_other_paypal_payment_solutions_wps_other_settings_ec_settings_ec_advanced_express_checkout_settlement_report\";s:1:\"0\";s:107:\"payment_other_paypal_payment_solutions_wps_other_settings_ec_settings_ec_advanced_express_checkout_frontend\";s:1:\"0\";s:61:\"payment_other_paypal_payment_solutions_express_checkout_other\";s:1:\"0\";s:87:\"payment_other_paypal_payment_solutions_express_checkout_other_express_checkout_required\";s:1:\"1\";s:130:\"payment_other_paypal_payment_solutions_express_checkout_other_express_checkout_required_express_checkout_required_express_checkout\";s:1:\"1\";s:73:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec\";s:1:\"1\";s:94:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec_settings_ec_advanced\";s:1:\"0\";s:129:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec_settings_ec_advanced_express_checkout_billing_agreement\";s:1:\"0\";s:129:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec_settings_ec_advanced_express_checkout_settlement_report\";s:1:\"0\";s:120:\"payment_other_paypal_payment_solutions_express_checkout_other_settings_ec_settings_ec_advanced_express_checkout_frontend\";s:1:\"0\";s:18:\"payment_other_free\";s:1:\"0\";s:27:\"payment_other_purchaseorder\";s:1:\"0\";s:37:\"payment_other_authorizenet_directpost\";s:1:\"0\";s:20:\"dev_translate_inline\";s:1:\"0\";}}',NULL,NULL,'en_US',0,NULL,NULL);
 /*!40000 ALTER TABLE `admin_user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -308,7 +308,7 @@ CREATE TABLE `catalog_category_entity` (
   `children_count` int(11) NOT NULL COMMENT 'Child Count',
   PRIMARY KEY (`entity_id`),
   KEY `CATALOG_CATEGORY_ENTITY_LEVEL` (`level`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Table';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -342,7 +342,7 @@ CREATE TABLE `catalog_category_entity_datetime` (
   CONSTRAINT `CATALOG_CATEGORY_ENTITY_DATETIME_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_DTIME_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_DTIME_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Datetime Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -376,7 +376,7 @@ CREATE TABLE `catalog_category_entity_decimal` (
   CONSTRAINT `CATALOG_CATEGORY_ENTITY_DECIMAL_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_DEC_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_DEC_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Decimal Attribute Backend Table';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Catalog Category Decimal Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -409,7 +409,7 @@ CREATE TABLE `catalog_category_entity_int` (
   CONSTRAINT `CATALOG_CATEGORY_ENTITY_INT_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_INT_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Integer Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -443,7 +443,7 @@ CREATE TABLE `catalog_category_entity_text` (
   CONSTRAINT `CATALOG_CATEGORY_ENTITY_TEXT_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_TEXT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_TEXT_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Text Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -477,7 +477,7 @@ CREATE TABLE `catalog_category_entity_varchar` (
   CONSTRAINT `CATALOG_CATEGORY_ENTITY_VARCHAR_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_VCHR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_CTGR_ENTT_VCHR_ENTT_ID_CAT_CTGR_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_category_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=63 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='Catalog Category Varchar Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -543,6 +543,7 @@ CREATE TABLE `catalog_category_product_index` (
 
 LOCK TABLES `catalog_category_product_index` WRITE;
 /*!40000 ALTER TABLE `catalog_category_product_index` DISABLE KEYS */;
+INSERT INTO `catalog_category_product_index` VALUES (2,1,0,0,1,4);
 /*!40000 ALTER TABLE `catalog_category_product_index` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -850,7 +851,7 @@ CREATE TABLE `catalog_product_entity` (
   KEY `CATALOG_PRODUCT_ENTITY_ATTRIBUTE_SET_ID` (`attribute_set_id`),
   KEY `CATALOG_PRODUCT_ENTITY_SKU` (`sku`),
   CONSTRAINT `CAT_PRD_ENTT_ATTR_SET_ID_EAV_ATTR_SET_ATTR_SET_ID` FOREIGN KEY (`attribute_set_id`) REFERENCES `eav_attribute_set` (`attribute_set_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=313 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Table';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -859,6 +860,7 @@ CREATE TABLE `catalog_product_entity` (
 
 LOCK TABLES `catalog_product_entity` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity` VALUES (1,4,'virtual','abcd',0,0,'2017-12-11 16:46:30','2017-12-11 16:46:30');
 /*!40000 ALTER TABLE `catalog_product_entity` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -882,7 +884,7 @@ CREATE TABLE `catalog_product_entity_datetime` (
   CONSTRAINT `CATALOG_PRODUCT_ENTITY_DATETIME_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_DTIME_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_DTIME_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=84 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Datetime Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -891,6 +893,7 @@ CREATE TABLE `catalog_product_entity_datetime` (
 
 LOCK TABLES `catalog_product_entity_datetime` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_datetime` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_datetime` VALUES (1,76,0,1,NULL),(2,77,0,1,NULL),(3,98,0,1,NULL),(4,99,0,1,NULL),(5,91,0,1,NULL),(6,92,0,1,NULL);
 /*!40000 ALTER TABLE `catalog_product_entity_datetime` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -914,7 +917,7 @@ CREATE TABLE `catalog_product_entity_decimal` (
   CONSTRAINT `CATALOG_PRODUCT_ENTITY_DECIMAL_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_DEC_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_DEC_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=650 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Decimal Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -923,6 +926,7 @@ CREATE TABLE `catalog_product_entity_decimal` (
 
 LOCK TABLES `catalog_product_entity_decimal` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_decimal` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_decimal` VALUES (1,74,0,1,123.0000),(2,75,0,1,NULL),(3,78,0,1,NULL);
 /*!40000 ALTER TABLE `catalog_product_entity_decimal` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -980,7 +984,7 @@ CREATE TABLE `catalog_product_entity_int` (
   CONSTRAINT `CATALOG_PRODUCT_ENTITY_INT_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_INT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_INT_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=1266 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Integer Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -989,6 +993,7 @@ CREATE TABLE `catalog_product_entity_int` (
 
 LOCK TABLES `catalog_product_entity_int` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_int` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_int` VALUES (1,129,0,1,0),(2,94,0,1,1),(3,90,0,1,6),(4,96,0,1,4),(5,112,0,1,1);
 /*!40000 ALTER TABLE `catalog_product_entity_int` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1132,7 +1137,7 @@ CREATE TABLE `catalog_product_entity_text` (
   CONSTRAINT `CATALOG_PRODUCT_ENTITY_TEXT_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_TEXT_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_TEXT_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=663 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Text Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1141,6 +1146,7 @@ CREATE TABLE `catalog_product_entity_text` (
 
 LOCK TABLES `catalog_product_entity_text` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_text` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_text` VALUES (1,72,0,1,NULL),(2,82,0,1,'abcd'),(3,100,0,1,NULL),(4,73,0,1,NULL);
 /*!40000 ALTER TABLE `catalog_product_entity_text` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1198,7 +1204,7 @@ CREATE TABLE `catalog_product_entity_varchar` (
   CONSTRAINT `CATALOG_PRODUCT_ENTITY_VARCHAR_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_VCHR_ATTR_ID_EAV_ATTR_ATTR_ID` FOREIGN KEY (`attribute_id`) REFERENCES `eav_attribute` (`attribute_id`) ON DELETE CASCADE,
   CONSTRAINT `CAT_PRD_ENTT_VCHR_ENTT_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`entity_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=2925 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table';
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COMMENT='Catalog Product Varchar Attribute Backend Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1207,6 +1213,7 @@ CREATE TABLE `catalog_product_entity_varchar` (
 
 LOCK TABLES `catalog_product_entity_varchar` WRITE;
 /*!40000 ALTER TABLE `catalog_product_entity_varchar` DISABLE KEYS */;
+INSERT INTO `catalog_product_entity_varchar` VALUES (1,70,0,1,'abcd'),(2,134,0,1,NULL),(3,133,0,1,NULL),(4,132,0,1,NULL),(5,128,0,1,NULL),(6,84,0,1,NULL),(7,85,0,1,NULL),(8,86,0,1,NULL),(9,115,0,1,'abcd'),(10,81,0,1,'abcd'),(11,83,0,1,'abcd '),(12,97,0,1,NULL),(13,101,0,1,NULL),(14,103,0,1,'container2'),(15,130,0,1,NULL);
 /*!40000 ALTER TABLE `catalog_product_entity_varchar` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1235,6 +1242,7 @@ CREATE TABLE `catalog_product_index_eav` (
 
 LOCK TABLES `catalog_product_index_eav` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_eav` DISABLE KEYS */;
+INSERT INTO `catalog_product_index_eav` VALUES (1,90,1,6);
 /*!40000 ALTER TABLE `catalog_product_index_eav` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1411,6 +1419,7 @@ CREATE TABLE `catalog_product_index_price` (
 
 LOCK TABLES `catalog_product_index_price` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_price` DISABLE KEYS */;
+INSERT INTO `catalog_product_index_price` VALUES (1,0,1,0,123.0000,123.0000,123.0000,123.0000,NULL),(1,1,1,0,123.0000,123.0000,123.0000,123.0000,NULL),(1,2,1,0,123.0000,123.0000,123.0000,123.0000,NULL),(1,3,1,0,123.0000,123.0000,123.0000,123.0000,NULL);
 /*!40000 ALTER TABLE `catalog_product_index_price` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2053,7 +2062,7 @@ CREATE TABLE `catalog_product_index_website` (
 
 LOCK TABLES `catalog_product_index_website` WRITE;
 /*!40000 ALTER TABLE `catalog_product_index_website` DISABLE KEYS */;
-INSERT INTO `catalog_product_index_website` VALUES (1,'2017-11-25',1);
+INSERT INTO `catalog_product_index_website` VALUES (1,'2017-12-11',1);
 /*!40000 ALTER TABLE `catalog_product_index_website` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2539,6 +2548,7 @@ CREATE TABLE `catalog_product_website` (
 
 LOCK TABLES `catalog_product_website` WRITE;
 /*!40000 ALTER TABLE `catalog_product_website` DISABLE KEYS */;
+INSERT INTO `catalog_product_website` VALUES (1,1);
 /*!40000 ALTER TABLE `catalog_product_website` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2637,7 +2647,7 @@ CREATE TABLE `cataloginventory_stock_item` (
   KEY `CATALOGINVENTORY_STOCK_ITEM_STOCK_ID` (`stock_id`),
   CONSTRAINT `CATINV_STOCK_ITEM_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE,
   CONSTRAINT `CATINV_STOCK_ITEM_STOCK_ID_CATINV_STOCK_STOCK_ID` FOREIGN KEY (`stock_id`) REFERENCES `cataloginventory_stock` (`stock_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=313 DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Item';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Cataloginventory Stock Item';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2646,6 +2656,7 @@ CREATE TABLE `cataloginventory_stock_item` (
 
 LOCK TABLES `cataloginventory_stock_item` WRITE;
 /*!40000 ALTER TABLE `cataloginventory_stock_item` DISABLE KEYS */;
+INSERT INTO `cataloginventory_stock_item` VALUES (1,1,1,100.0000,0.0000,1,0,0,1,1.0000,1,10000.0000,1,1,NULL,1.0000,1,1,1,0,1,1.0000,0,0,0,1);
 /*!40000 ALTER TABLE `cataloginventory_stock_item` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2674,6 +2685,7 @@ CREATE TABLE `cataloginventory_stock_status` (
 
 LOCK TABLES `cataloginventory_stock_status` WRITE;
 /*!40000 ALTER TABLE `cataloginventory_stock_status` DISABLE KEYS */;
+INSERT INTO `cataloginventory_stock_status` VALUES (1,1,1,100.0000,1);
 /*!40000 ALTER TABLE `cataloginventory_stock_status` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2946,6 +2958,7 @@ CREATE TABLE `catalogsearch_fulltext_scope1` (
 
 LOCK TABLES `catalogsearch_fulltext_scope1` WRITE;
 /*!40000 ALTER TABLE `catalogsearch_fulltext_scope1` DISABLE KEYS */;
+INSERT INTO `catalogsearch_fulltext_scope1` VALUES (1,70,'abcd'),(1,71,'abcd'),(1,90,'czarny');
 /*!40000 ALTER TABLE `catalogsearch_fulltext_scope1` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -3097,7 +3110,7 @@ CREATE TABLE `cms_page` (
 
 LOCK TABLES `cms_page` WRITE;
 /*!40000 ALTER TABLE `cms_page` DISABLE KEYS */;
-INSERT INTO `cms_page` VALUES (1,'404 Not Found','2columns-right','Page keywords','Page description','no-route','Whoops, our bad...','<dl>\r\n<dt>The page you requested was not found, and we have a fine guess why.</dt>\r\n<dd>\r\n<ul class=\"disc\">\r\n<li>If you typed the URL directly, please make sure the spelling is correct.</li>\r\n<li>If you clicked on a link to get here, the link is outdated.</li>\r\n</ul></dd>\r\n</dl>\r\n<dl>\r\n<dt>What can you do?</dt>\r\n<dd>Have no fear, help is near! There are many ways you can get back on track with Magento Store.</dd>\r\n<dd>\r\n<ul class=\"disc\">\r\n<li><a href=\"#\" onclick=\"history.go(-1); return false;\">Go back</a> to the previous page.</li>\r\n<li>Use the search bar at the top of the page to search for your products.</li>\r\n<li>Follow these links to get you back on track!<br /><a href=\"{{store url=\"\"}}\">Store Home</a> <span class=\"separator\">|</span> <a href=\"{{store url=\"customer/account\"}}\">My Account</a></li></ul></dd></dl>\r\n','2017-10-30 20:49:36','2017-10-30 20:49:36',1,0,NULL,NULL,NULL,NULL,NULL,NULL),(2,'Strona domowa','1column',NULL,NULL,'home','Strona domowa','<p>{{widget type=\"Magento\\Catalog\\Block\\Product\\Widget\\NewWidget\" display_type=\"all_products\" products_count=\"10\" template=\"product/widget/new/content/new_grid.phtml\"}}</p>','2017-10-30 20:49:36','2017-11-15 19:42:00',1,0,'<!--\r\n    <referenceContainer name=\"right\">\r\n        <action method=\"unsetChild\"><argument name=\"alias\" xsi:type=\"string\">right.reports.product.viewed</argument></action>\r\n        <action method=\"unsetChild\"><argument name=\"alias\" xsi:type=\"string\">right.reports.product.compared</argument></action>\r\n    </referenceContainer>-->',NULL,NULL,NULL,NULL,NULL),(3,'Enable Cookies','1column',NULL,NULL,'enable-cookies','What are Cookies?','<div class=\"enable-cookies cms-content\">\r\n<p>\"Cookies\" are little pieces of data we send when you visit our store. Cookies help us get to know you better and personalize your experience. Plus they help protect you and other shoppers from fraud.</p>\r\n<p style=\"margin-bottom: 20px;\">Set your browser to accept cookies so you can buy items, save items, and receive customized recommendations. Here’s how:</p>\r\n<ul>\r\n<li><a href=\"https://support.google.com/accounts/answer/61416?hl=en\" target=\"_blank\">Google Chrome</a></li>\r\n<li><a href=\"http://windows.microsoft.com/en-us/internet-explorer/delete-manage-cookies\" target=\"_blank\">Internet Explorer</a></li>\r\n<li><a href=\"http://support.apple.com/kb/PH19214\" target=\"_blank\">Safari</a></li>\r\n<li><a href=\"https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences\" target=\"_blank\">Mozilla/Firefox</a></li>\r\n</ul>\r\n</div>','2017-10-30 20:49:36','2017-10-30 20:49:36',1,0,NULL,NULL,NULL,NULL,NULL,NULL),(4,'Privacy and Cookie Policy','1column',NULL,NULL,'privacy-policy-cookie-restriction-mode','Privacy and Cookie Policy','<div class=\"privacy-policy cms-content\">\n    <div class=\"message info\">\n        <span>\n            Please replace this text with you Privacy Policy.\n            Please add any additional cookies your website uses below (e.g. Google Analytics).\n        </span>\n    </div>\n    <p>\n        This privacy policy sets out how this website (hereafter \"the Store\") uses and protects any information that\n        you give the Store while using this website. The Store is committed to ensuring that your privacy is protected.\n        Should we ask you to provide certain information by which you can be identified when using this website, then\n        you can be assured that it will only be used in accordance with this privacy statement. The Store may change\n        this policy from time to time by updating this page. You should check this page from time to time to ensure\n        that you are happy with any changes.\n    </p>\n    <h2>What we collect</h2>\n    <p>We may collect the following information:</p>\n    <ul>\n        <li>name</li>\n        <li>contact information including email address</li>\n        <li>demographic information such as postcode, preferences and interests</li>\n        <li>other information relevant to customer surveys and/or offers</li>\n    </ul>\n    <p>\n        For the exhaustive list of cookies we collect see the <a href=\"#list\">List of cookies we collect</a> section.\n    </p>\n    <h2>What we do with the information we gather</h2>\n    <p>\n        We require this information to understand your needs and provide you with a better service,\n        and in particular for the following reasons:\n    </p>\n    <ul>\n        <li>Internal record keeping.</li>\n        <li>We may use the information to improve our products and services.</li>\n        <li>\n            We may periodically send promotional emails about new products, special offers or other information which we\n            think you may find interesting using the email address which you have provided.\n        </li>\n        <li>\n            From time to time, we may also use your information to contact you for market research purposes.\n            We may contact you by email, phone, fax or mail. We may use the information to customise the website\n            according to your interests.\n        </li>\n    </ul>\n    <h2>Security</h2>\n    <p>\n        We are committed to ensuring that your information is secure. In order to prevent unauthorised access or\n        disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and\n        secure the information we collect online.\n    </p>\n    <h2>How we use cookies</h2>\n    <p>\n        A cookie is a small file which asks permission to be placed on your computer\'s hard drive.\n        Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit\n        a particular site. Cookies allow web applications to respond to you as an individual. The web application\n        can tailor its operations to your needs, likes and dislikes by gathering and remembering information about\n        your preferences.\n    </p>\n    <p>\n        We use traffic log cookies to identify which pages are being used. This helps us analyse data about web page\n        traffic and improve our website in order to tailor it to customer needs. We only use this information for\n        statistical analysis purposes and then the data is removed from the system.\n    </p>\n    <p>\n        Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find\n        useful and which you do not. A cookie in no way gives us access to your computer or any information about you,\n        other than the data you choose to share with us. You can choose to accept or decline cookies.\n        Most web browsers automatically accept cookies, but you can usually modify your browser setting\n        to decline cookies if you prefer. This may prevent you from taking full advantage of the website.\n    </p>\n    <h2>Links to other websites</h2>\n    <p>\n        Our website may contain links to other websites of interest. However, once you have used these links\n        to leave our site, you should note that we do not have any control over that other website.\n        Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst\n        visiting such sites and such sites are not governed by this privacy statement.\n        You should exercise caution and look at the privacy statement applicable to the website in question.\n    </p>\n    <h2>Controlling your personal information</h2>\n    <p>You may choose to restrict the collection or use of your personal information in the following ways:</p>\n    <ul>\n        <li>\n            whenever you are asked to fill in a form on the website, look for the box that you can click to indicate\n            that you do not want the information to be used by anybody for direct marketing purposes\n        </li>\n        <li>\n            if you have previously agreed to us using your personal information for direct marketing purposes,\n            you may change your mind at any time by letting us know using our Contact Us information\n        </li>\n    </ul>\n    <p>\n        We will not sell, distribute or lease your personal information to third parties unless we have your permission\n        or are required by law to do so. We may use your personal information to send you promotional information\n        about third parties which we think you may find interesting if you tell us that you wish this to happen.\n    </p>\n    <p>\n        You may request details of personal information which we hold about you under the Data Protection Act 1998.\n        A small fee will be payable. If you would like a copy of the information held on you please email us this\n        request using our Contact Us information.\n    </p>\n    <p>\n        If you believe that any information we are holding on you is incorrect or incomplete,\n        please write to or email us as soon as possible, at the above address.\n        We will promptly correct any information found to be incorrect.\n    </p>\n    <h2><a name=\"list\"></a>List of cookies we collect</h2>\n    <p>The table below lists the cookies we collect and what information they store.</p>\n    <table class=\"data-table\">\n        <thead>\n            <tr>\n                <th>COOKIE name</th>\n                <th>COOKIE Description</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr>\n                <th>CART</th>\n                <td>The association with your shopping cart.</td>\n            </tr>\n            <tr>\n                <th>CATEGORY_INFO</th>\n                <td>Stores the category info on the page, that allows to display pages more quickly.</td>\n            </tr>\n            <tr>\n                <th>COMPARE</th>\n                <td>The items that you have in the Compare Products list.</td>\n            </tr>\n            <tr>\n                <th>CUSTOMER</th>\n                <td>An encrypted version of your customer id with the store.</td>\n            </tr>\n            <tr>\n                <th>CUSTOMER_AUTH</th>\n                <td>An indicator if you are currently logged into the store.</td>\n            </tr>\n            <tr>\n                <th>CUSTOMER_INFO</th>\n                <td>An encrypted version of the customer group you belong to.</td>\n            </tr>\n            <tr>\n                <th>CUSTOMER_SEGMENT_IDS</th>\n                <td>Stores the Customer Segment ID</td>\n            </tr>\n            <tr>\n                <th>EXTERNAL_NO_CACHE</th>\n                <td>A flag, which indicates whether caching is disabled or not.</td>\n            </tr>\n            <tr>\n                <th>FORM_KEY</th>\n                <td>Stores form key used by page cache functionality.</td>\n            </tr>\n            <tr>\n                <th>FRONTEND</th>\n                <td>Your session ID on the server.</td>\n            </tr>\n            <tr>\n                <th>GUEST-VIEW</th>\n                <td>Allows guests to edit their orders.</td>\n            </tr>\n            <tr>\n                <th>LAST_CATEGORY</th>\n                <td>The last category you visited.</td>\n            </tr>\n            <tr>\n                <th>LAST_PRODUCT</th>\n                <td>The most recent product you have viewed.</td>\n            </tr>\n            <tr>\n                <th>NEWMESSAGE</th>\n                <td>Indicates whether a new message has been received.</td>\n            </tr>\n            <tr>\n                <th>NO_CACHE</th>\n                <td>Indicates whether it is allowed to use cache.</td>\n            </tr>\n            <tr>\n                <th>PERSISTENT_SHOPPING_CART</th>\n                <td>A link to information about your cart and viewing history if you have asked the site.</td>\n            </tr>\n            <tr>\n                <th>RECENTLYCOMPARED</th>\n                <td>The items that you have recently compared.</td>\n            </tr>\n            <tr>\n                <th>STF</th>\n                <td>Information on products you have emailed to friends.</td>\n            </tr>\n            <tr>\n                <th>STORE</th>\n                <td>The store view or language you have selected.</td>\n            </tr>\n            <tr>\n                <th>USER_ALLOWED_SAVE_COOKIE</th>\n                <td>Indicates whether a customer allowed to use cookies.</td>\n            </tr>\n            <tr>\n                <th>VIEWED_PRODUCT_IDS</th>\n                <td>The products that you have recently viewed.</td>\n            </tr>\n            <tr>\n                <th>WISHLIST</th>\n                <td>An encrypted list of products added to your Wish List.</td>\n            </tr>\n            <tr>\n                <th>WISHLIST_CNT</th>\n                <td>The number of items in your Wish List.</td>\n            </tr>\n        </tbody>\n    </table>\n</div>','2017-10-30 20:49:36','2017-10-30 20:49:36',1,0,NULL,NULL,NULL,NULL,NULL,NULL);
+INSERT INTO `cms_page` VALUES (1,'404 Not Found','2columns-right','Page keywords','Page description','no-route','Whoops, our bad...','<dl>\r\n<dt>The page you requested was not found, and we have a fine guess why.</dt>\r\n<dd>\r\n<ul class=\"disc\">\r\n<li>If you typed the URL directly, please make sure the spelling is correct.</li>\r\n<li>If you clicked on a link to get here, the link is outdated.</li>\r\n</ul></dd>\r\n</dl>\r\n<dl>\r\n<dt>What can you do?</dt>\r\n<dd>Have no fear, help is near! There are many ways you can get back on track with Magento Store.</dd>\r\n<dd>\r\n<ul class=\"disc\">\r\n<li><a href=\"#\" onclick=\"history.go(-1); return false;\">Go back</a> to the previous page.</li>\r\n<li>Use the search bar at the top of the page to search for your products.</li>\r\n<li>Follow these links to get you back on track!<br /><a href=\"{{store url=\"\"}}\">Store Home</a> <span class=\"separator\">|</span> <a href=\"{{store url=\"customer/account\"}}\">My Account</a></li></ul></dd></dl>\r\n','2017-10-30 20:49:36','2017-10-30 20:49:36',1,0,NULL,NULL,NULL,NULL,NULL,NULL),(2,'Strona domowa','1column',NULL,NULL,'home','Strona domowa','<p>{{widget type=\"Magestore\\Bannerslider\\Block\\Widget\\Bannerslider\" slider=\"1\" template=\"widget/bannerslider.phtml\"}}{{widget type=\"Magento\\Catalog\\Block\\Product\\Widget\\NewWidget\" display_type=\"all_products\" products_count=\"10\" template=\"product/widget/new/content/new_grid.phtml\"}}</p>','2017-10-30 20:49:36','2017-12-11 16:44:18',1,0,'<!--\r\n    <referenceContainer name=\"right\">\r\n        <action method=\"unsetChild\"><argument name=\"alias\" xsi:type=\"string\">right.reports.product.viewed</argument></action>\r\n        <action method=\"unsetChild\"><argument name=\"alias\" xsi:type=\"string\">right.reports.product.compared</argument></action>\r\n    </referenceContainer>-->',NULL,NULL,NULL,NULL,NULL),(3,'Enable Cookies','1column',NULL,NULL,'enable-cookies','What are Cookies?','<div class=\"enable-cookies cms-content\">\r\n<p>\"Cookies\" are little pieces of data we send when you visit our store. Cookies help us get to know you better and personalize your experience. Plus they help protect you and other shoppers from fraud.</p>\r\n<p style=\"margin-bottom: 20px;\">Set your browser to accept cookies so you can buy items, save items, and receive customized recommendations. Here’s how:</p>\r\n<ul>\r\n<li><a href=\"https://support.google.com/accounts/answer/61416?hl=en\" target=\"_blank\">Google Chrome</a></li>\r\n<li><a href=\"http://windows.microsoft.com/en-us/internet-explorer/delete-manage-cookies\" target=\"_blank\">Internet Explorer</a></li>\r\n<li><a href=\"http://support.apple.com/kb/PH19214\" target=\"_blank\">Safari</a></li>\r\n<li><a href=\"https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences\" target=\"_blank\">Mozilla/Firefox</a></li>\r\n</ul>\r\n</div>','2017-10-30 20:49:36','2017-10-30 20:49:36',1,0,NULL,NULL,NULL,NULL,NULL,NULL),(4,'Privacy and Cookie Policy','1column',NULL,NULL,'privacy-policy-cookie-restriction-mode','Privacy and Cookie Policy','<div class=\"privacy-policy cms-content\">\n    <div class=\"message info\">\n        <span>\n            Please replace this text with you Privacy Policy.\n            Please add any additional cookies your website uses below (e.g. Google Analytics).\n        </span>\n    </div>\n    <p>\n        This privacy policy sets out how this website (hereafter \"the Store\") uses and protects any information that\n        you give the Store while using this website. The Store is committed to ensuring that your privacy is protected.\n        Should we ask you to provide certain information by which you can be identified when using this website, then\n        you can be assured that it will only be used in accordance with this privacy statement. The Store may change\n        this policy from time to time by updating this page. You should check this page from time to time to ensure\n        that you are happy with any changes.\n    </p>\n    <h2>What we collect</h2>\n    <p>We may collect the following information:</p>\n    <ul>\n        <li>name</li>\n        <li>contact information including email address</li>\n        <li>demographic information such as postcode, preferences and interests</li>\n        <li>other information relevant to customer surveys and/or offers</li>\n    </ul>\n    <p>\n        For the exhaustive list of cookies we collect see the <a href=\"#list\">List of cookies we collect</a> section.\n    </p>\n    <h2>What we do with the information we gather</h2>\n    <p>\n        We require this information to understand your needs and provide you with a better service,\n        and in particular for the following reasons:\n    </p>\n    <ul>\n        <li>Internal record keeping.</li>\n        <li>We may use the information to improve our products and services.</li>\n        <li>\n            We may periodically send promotional emails about new products, special offers or other information which we\n            think you may find interesting using the email address which you have provided.\n        </li>\n        <li>\n            From time to time, we may also use your information to contact you for market research purposes.\n            We may contact you by email, phone, fax or mail. We may use the information to customise the website\n            according to your interests.\n        </li>\n    </ul>\n    <h2>Security</h2>\n    <p>\n        We are committed to ensuring that your information is secure. In order to prevent unauthorised access or\n        disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and\n        secure the information we collect online.\n    </p>\n    <h2>How we use cookies</h2>\n    <p>\n        A cookie is a small file which asks permission to be placed on your computer\'s hard drive.\n        Once you agree, the file is added and the cookie helps analyse web traffic or lets you know when you visit\n        a particular site. Cookies allow web applications to respond to you as an individual. The web application\n        can tailor its operations to your needs, likes and dislikes by gathering and remembering information about\n        your preferences.\n    </p>\n    <p>\n        We use traffic log cookies to identify which pages are being used. This helps us analyse data about web page\n        traffic and improve our website in order to tailor it to customer needs. We only use this information for\n        statistical analysis purposes and then the data is removed from the system.\n    </p>\n    <p>\n        Overall, cookies help us provide you with a better website, by enabling us to monitor which pages you find\n        useful and which you do not. A cookie in no way gives us access to your computer or any information about you,\n        other than the data you choose to share with us. You can choose to accept or decline cookies.\n        Most web browsers automatically accept cookies, but you can usually modify your browser setting\n        to decline cookies if you prefer. This may prevent you from taking full advantage of the website.\n    </p>\n    <h2>Links to other websites</h2>\n    <p>\n        Our website may contain links to other websites of interest. However, once you have used these links\n        to leave our site, you should note that we do not have any control over that other website.\n        Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst\n        visiting such sites and such sites are not governed by this privacy statement.\n        You should exercise caution and look at the privacy statement applicable to the website in question.\n    </p>\n    <h2>Controlling your personal information</h2>\n    <p>You may choose to restrict the collection or use of your personal information in the following ways:</p>\n    <ul>\n        <li>\n            whenever you are asked to fill in a form on the website, look for the box that you can click to indicate\n            that you do not want the information to be used by anybody for direct marketing purposes\n        </li>\n        <li>\n            if you have previously agreed to us using your personal information for direct marketing purposes,\n            you may change your mind at any time by letting us know using our Contact Us information\n        </li>\n    </ul>\n    <p>\n        We will not sell, distribute or lease your personal information to third parties unless we have your permission\n        or are required by law to do so. We may use your personal information to send you promotional information\n        about third parties which we think you may find interesting if you tell us that you wish this to happen.\n    </p>\n    <p>\n        You may request details of personal information which we hold about you under the Data Protection Act 1998.\n        A small fee will be payable. If you would like a copy of the information held on you please email us this\n        request using our Contact Us information.\n    </p>\n    <p>\n        If you believe that any information we are holding on you is incorrect or incomplete,\n        please write to or email us as soon as possible, at the above address.\n        We will promptly correct any information found to be incorrect.\n    </p>\n    <h2><a name=\"list\"></a>List of cookies we collect</h2>\n    <p>The table below lists the cookies we collect and what information they store.</p>\n    <table class=\"data-table\">\n        <thead>\n            <tr>\n                <th>COOKIE name</th>\n                <th>COOKIE Description</th>\n            </tr>\n        </thead>\n        <tbody>\n            <tr>\n                <th>CART</th>\n                <td>The association with your shopping cart.</td>\n            </tr>\n            <tr>\n                <th>CATEGORY_INFO</th>\n                <td>Stores the category info on the page, that allows to display pages more quickly.</td>\n            </tr>\n            <tr>\n                <th>COMPARE</th>\n                <td>The items that you have in the Compare Products list.</td>\n            </tr>\n            <tr>\n                <th>CUSTOMER</th>\n                <td>An encrypted version of your customer id with the store.</td>\n            </tr>\n            <tr>\n                <th>CUSTOMER_AUTH</th>\n                <td>An indicator if you are currently logged into the store.</td>\n            </tr>\n            <tr>\n                <th>CUSTOMER_INFO</th>\n                <td>An encrypted version of the customer group you belong to.</td>\n            </tr>\n            <tr>\n                <th>CUSTOMER_SEGMENT_IDS</th>\n                <td>Stores the Customer Segment ID</td>\n            </tr>\n            <tr>\n                <th>EXTERNAL_NO_CACHE</th>\n                <td>A flag, which indicates whether caching is disabled or not.</td>\n            </tr>\n            <tr>\n                <th>FORM_KEY</th>\n                <td>Stores form key used by page cache functionality.</td>\n            </tr>\n            <tr>\n                <th>FRONTEND</th>\n                <td>Your session ID on the server.</td>\n            </tr>\n            <tr>\n                <th>GUEST-VIEW</th>\n                <td>Allows guests to edit their orders.</td>\n            </tr>\n            <tr>\n                <th>LAST_CATEGORY</th>\n                <td>The last category you visited.</td>\n            </tr>\n            <tr>\n                <th>LAST_PRODUCT</th>\n                <td>The most recent product you have viewed.</td>\n            </tr>\n            <tr>\n                <th>NEWMESSAGE</th>\n                <td>Indicates whether a new message has been received.</td>\n            </tr>\n            <tr>\n                <th>NO_CACHE</th>\n                <td>Indicates whether it is allowed to use cache.</td>\n            </tr>\n            <tr>\n                <th>PERSISTENT_SHOPPING_CART</th>\n                <td>A link to information about your cart and viewing history if you have asked the site.</td>\n            </tr>\n            <tr>\n                <th>RECENTLYCOMPARED</th>\n                <td>The items that you have recently compared.</td>\n            </tr>\n            <tr>\n                <th>STF</th>\n                <td>Information on products you have emailed to friends.</td>\n            </tr>\n            <tr>\n                <th>STORE</th>\n                <td>The store view or language you have selected.</td>\n            </tr>\n            <tr>\n                <th>USER_ALLOWED_SAVE_COOKIE</th>\n                <td>Indicates whether a customer allowed to use cookies.</td>\n            </tr>\n            <tr>\n                <th>VIEWED_PRODUCT_IDS</th>\n                <td>The products that you have recently viewed.</td>\n            </tr>\n            <tr>\n                <th>WISHLIST</th>\n                <td>An encrypted list of products added to your Wish List.</td>\n            </tr>\n            <tr>\n                <th>WISHLIST_CNT</th>\n                <td>The number of items in your Wish List.</td>\n            </tr>\n        </tbody>\n    </table>\n</div>','2017-10-30 20:49:36','2017-10-30 20:49:36',1,0,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `cms_page` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -3803,7 +3816,7 @@ CREATE TABLE `customer_visitor` (
   PRIMARY KEY (`visitor_id`),
   KEY `CUSTOMER_VISITOR_CUSTOMER_ID` (`customer_id`),
   KEY `CUSTOMER_VISITOR_LAST_VISIT_AT` (`last_visit_at`)
-) ENGINE=InnoDB AUTO_INCREMENT=58 DEFAULT CHARSET=utf8 COMMENT='Visitor Table';
+) ENGINE=InnoDB AUTO_INCREMENT=66 DEFAULT CHARSET=utf8 COMMENT='Visitor Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -3812,7 +3825,7 @@ CREATE TABLE `customer_visitor` (
 
 LOCK TABLES `customer_visitor` WRITE;
 /*!40000 ALTER TABLE `customer_visitor` DISABLE KEYS */;
-INSERT INTO `customer_visitor` VALUES (1,NULL,'f1812f44636b901b5d7ee4368806e017','2017-10-30 20:50:50'),(2,1,'a49d5bbc79a637649f60197536a4a178','2017-10-30 20:52:46'),(3,NULL,'6a5e47edfdc35f70b3c57da1a17d0997','2017-10-31 13:58:10'),(4,2,'84c3b56372a23461a60ef3373d6a8827','2017-10-31 14:31:48'),(5,3,'a6d6add823b271f8de39b04011016b34','2017-10-31 14:45:05'),(6,NULL,'77c7977ccebe51e7e951da295bbc547c','2017-10-31 17:39:47'),(7,NULL,'5f4e945d2dfd385911c3ea5cf02476bc','2017-10-31 17:39:53'),(8,NULL,'5530f026ad8971fa828ff78a1f0a865c','2017-10-31 17:41:35'),(9,NULL,'422f58ab6fce7a78c0f5c696462d84b9','2017-11-01 19:44:10'),(10,NULL,'958dce225812b1e3e2e04572b6431218','2017-11-01 19:44:12'),(11,NULL,'0bd1644daffbf9403d93915cc8278800','2017-11-01 19:46:49'),(12,4,'af238866f58b7a8b2b0ec72fe696ad96','2017-11-01 22:22:17'),(13,NULL,'f2696b3dcdaccb6e5f4679cb7419804b','2017-11-01 21:55:43'),(14,NULL,'8e22b1423ec5918cdfa8200193b62a7a','2017-11-02 22:37:42'),(15,5,'29dd0324fb863594af7293a4cfcd9e03','2017-11-02 23:43:47'),(16,NULL,'3a8f9aff86e8d1b8da22edf284dc0fc7','2017-11-02 22:38:05'),(17,NULL,'661e6c18e00346be4fba3b50440129ad','2017-11-03 16:22:18'),(18,NULL,'cdd9a730c8be549eb94b7b6b30afda80','2017-11-03 16:22:22'),(19,NULL,'4f881a0a0504c802feb22ef05e4ea503','2017-11-03 16:22:22'),(20,NULL,'4f881a0a0504c802feb22ef05e4ea503','2017-11-03 17:16:20'),(21,NULL,'2f9c323449f2ab0318e95a9a0d21240a','2017-11-03 17:28:23'),(22,NULL,'165863f6b1edee5418a8dea7ce09e012','2017-11-03 17:28:23'),(23,NULL,'fc20763d09f46ec7e8141f453c0efb54','2017-11-03 20:58:08'),(24,NULL,'ecbefa0611190586fd5df84cee7e03b6','2017-11-03 20:26:35'),(25,NULL,'6a805f5af613ebb98b75862681ea9f16','2017-11-03 20:55:09'),(26,NULL,'1494fff1b28fa6995adf9f2fb7d13035','2017-11-15 00:04:05'),(27,NULL,'71b57abcae393c207949ec262e61e103','2017-11-15 00:06:16'),(28,NULL,'1b536999c5e2feada7a78f2d2ea9c1fb','2017-11-15 00:04:40'),(29,NULL,'71059ea345c51db4d430431eec3e3cd7','2017-11-15 01:53:23'),(30,NULL,'a7f1b9ee2b6272d6e3ca92554732bbca','2017-11-15 01:08:05'),(31,NULL,'f6a23af3687ef1ea1496a8fca952655b','2017-11-15 18:31:15'),(32,6,'1afce5c12bd74152810a315f1efc39b4','2017-11-15 20:29:54'),(33,NULL,'935509484b70bf31f0e2c4fb6e78e277','2017-11-15 18:31:18'),(34,NULL,'085c2f088b61116110b2c33c709c37e3','2017-11-15 18:36:08'),(35,NULL,'2ae6de2aa55c9fe94036df18f32aa6c7','2017-11-15 18:49:49'),(36,NULL,'eb022a902fda985d79913d21f3cb8d79','2017-11-15 19:42:11'),(37,NULL,'2f9e86341dde524a7dfdc9b84df437b1','2017-11-15 19:21:09'),(38,NULL,'5ab5f99ee11db6b2dfb3522f2ddfc2cb','2017-11-15 19:21:11'),(39,NULL,'9dc07e0010f204b2d45732bcaa905630','2017-11-15 21:27:29'),(40,NULL,'109893900fa8bb16713c34bef9fc2209','2017-11-15 21:27:32'),(41,NULL,'3aeecff36bd468ca19d8767ddea720fd','2017-11-15 21:27:32'),(42,NULL,'a822580ae2b3470a9544fb2b84bf172c','2017-11-17 00:33:51'),(43,6,'c1fcb70d6a11efacfcc7758afb3fff08','2017-11-17 01:26:17'),(44,NULL,'3b2109a0289a8227fe10d1619a206c0b','2017-11-17 00:34:02'),(45,NULL,'c0c899da4002ea18a4aa2f7a6498b235','2017-11-17 00:34:03'),(46,NULL,'d152dc0a59f0eb1d61f60aed89c06427','2017-11-17 00:35:49'),(47,NULL,'c1f36ef78a10ae73b4f7d0c089d0d629','2017-11-17 00:36:07'),(48,6,'d0737677b609ebdbafd5653c4bde9fe3','2017-11-17 01:06:50'),(49,NULL,'ae4f2ebd30fd8d5458a1104b074eec9a','2017-11-17 01:01:08'),(50,NULL,'d8ddfbfd0145b9660b24fc29fdf1fdd0','2017-11-17 13:07:07'),(51,NULL,'ff8f7884495da919f3d63d09864c25d2','2017-11-17 13:07:08'),(52,6,'c08146aea6d89f4a57a9d2d51c084f0f','2017-11-17 14:26:17'),(53,NULL,'4cc32d41d3b3ced8f28c2a6f5862408d','2017-11-17 13:07:22'),(54,7,'b06e2e586b4c9189cf43838cd16d3130','2017-11-17 15:25:51'),(55,NULL,'f969b8ea7c1ae6f1809d33e33ac00b38','2017-11-25 16:01:19'),(56,NULL,'47e44821e0f2bc2372ae9bb570f9444a','2017-11-25 16:01:23'),(57,NULL,'30a375009f934ca2882a464217436393','2017-11-25 16:01:23');
+INSERT INTO `customer_visitor` VALUES (1,NULL,'f1812f44636b901b5d7ee4368806e017','2017-10-30 20:50:50'),(2,1,'a49d5bbc79a637649f60197536a4a178','2017-10-30 20:52:46'),(3,NULL,'6a5e47edfdc35f70b3c57da1a17d0997','2017-10-31 13:58:10'),(4,2,'84c3b56372a23461a60ef3373d6a8827','2017-10-31 14:31:48'),(5,3,'a6d6add823b271f8de39b04011016b34','2017-10-31 14:45:05'),(6,NULL,'77c7977ccebe51e7e951da295bbc547c','2017-10-31 17:39:47'),(7,NULL,'5f4e945d2dfd385911c3ea5cf02476bc','2017-10-31 17:39:53'),(8,NULL,'5530f026ad8971fa828ff78a1f0a865c','2017-10-31 17:41:35'),(9,NULL,'422f58ab6fce7a78c0f5c696462d84b9','2017-11-01 19:44:10'),(10,NULL,'958dce225812b1e3e2e04572b6431218','2017-11-01 19:44:12'),(11,NULL,'0bd1644daffbf9403d93915cc8278800','2017-11-01 19:46:49'),(12,4,'af238866f58b7a8b2b0ec72fe696ad96','2017-11-01 22:22:17'),(13,NULL,'f2696b3dcdaccb6e5f4679cb7419804b','2017-11-01 21:55:43'),(14,NULL,'8e22b1423ec5918cdfa8200193b62a7a','2017-11-02 22:37:42'),(15,5,'29dd0324fb863594af7293a4cfcd9e03','2017-11-02 23:43:47'),(16,NULL,'3a8f9aff86e8d1b8da22edf284dc0fc7','2017-11-02 22:38:05'),(17,NULL,'661e6c18e00346be4fba3b50440129ad','2017-11-03 16:22:18'),(18,NULL,'cdd9a730c8be549eb94b7b6b30afda80','2017-11-03 16:22:22'),(19,NULL,'4f881a0a0504c802feb22ef05e4ea503','2017-11-03 16:22:22'),(20,NULL,'4f881a0a0504c802feb22ef05e4ea503','2017-11-03 17:16:20'),(21,NULL,'2f9c323449f2ab0318e95a9a0d21240a','2017-11-03 17:28:23'),(22,NULL,'165863f6b1edee5418a8dea7ce09e012','2017-11-03 17:28:23'),(23,NULL,'fc20763d09f46ec7e8141f453c0efb54','2017-11-03 20:58:08'),(24,NULL,'ecbefa0611190586fd5df84cee7e03b6','2017-11-03 20:26:35'),(25,NULL,'6a805f5af613ebb98b75862681ea9f16','2017-11-03 20:55:09'),(26,NULL,'1494fff1b28fa6995adf9f2fb7d13035','2017-11-15 00:04:05'),(27,NULL,'71b57abcae393c207949ec262e61e103','2017-11-15 00:06:16'),(28,NULL,'1b536999c5e2feada7a78f2d2ea9c1fb','2017-11-15 00:04:40'),(29,NULL,'71059ea345c51db4d430431eec3e3cd7','2017-11-15 01:53:23'),(30,NULL,'a7f1b9ee2b6272d6e3ca92554732bbca','2017-11-15 01:08:05'),(31,NULL,'f6a23af3687ef1ea1496a8fca952655b','2017-11-15 18:31:15'),(32,6,'1afce5c12bd74152810a315f1efc39b4','2017-11-15 20:29:54'),(33,NULL,'935509484b70bf31f0e2c4fb6e78e277','2017-11-15 18:31:18'),(34,NULL,'085c2f088b61116110b2c33c709c37e3','2017-11-15 18:36:08'),(35,NULL,'2ae6de2aa55c9fe94036df18f32aa6c7','2017-11-15 18:49:49'),(36,NULL,'eb022a902fda985d79913d21f3cb8d79','2017-11-15 19:42:11'),(37,NULL,'2f9e86341dde524a7dfdc9b84df437b1','2017-11-15 19:21:09'),(38,NULL,'5ab5f99ee11db6b2dfb3522f2ddfc2cb','2017-11-15 19:21:11'),(39,NULL,'9dc07e0010f204b2d45732bcaa905630','2017-11-15 21:27:29'),(40,NULL,'109893900fa8bb16713c34bef9fc2209','2017-11-15 21:27:32'),(41,NULL,'3aeecff36bd468ca19d8767ddea720fd','2017-11-15 21:27:32'),(42,NULL,'a822580ae2b3470a9544fb2b84bf172c','2017-11-17 00:33:51'),(43,6,'c1fcb70d6a11efacfcc7758afb3fff08','2017-11-17 01:26:17'),(44,NULL,'3b2109a0289a8227fe10d1619a206c0b','2017-11-17 00:34:02'),(45,NULL,'c0c899da4002ea18a4aa2f7a6498b235','2017-11-17 00:34:03'),(46,NULL,'d152dc0a59f0eb1d61f60aed89c06427','2017-11-17 00:35:49'),(47,NULL,'c1f36ef78a10ae73b4f7d0c089d0d629','2017-11-17 00:36:07'),(48,6,'d0737677b609ebdbafd5653c4bde9fe3','2017-11-17 01:06:50'),(49,NULL,'ae4f2ebd30fd8d5458a1104b074eec9a','2017-11-17 01:01:08'),(50,NULL,'d8ddfbfd0145b9660b24fc29fdf1fdd0','2017-11-17 13:07:07'),(51,NULL,'ff8f7884495da919f3d63d09864c25d2','2017-11-17 13:07:08'),(52,6,'c08146aea6d89f4a57a9d2d51c084f0f','2017-11-17 14:26:17'),(53,NULL,'4cc32d41d3b3ced8f28c2a6f5862408d','2017-11-17 13:07:22'),(54,7,'b06e2e586b4c9189cf43838cd16d3130','2017-11-17 15:25:51'),(55,NULL,'f969b8ea7c1ae6f1809d33e33ac00b38','2017-11-25 16:01:19'),(56,NULL,'47e44821e0f2bc2372ae9bb570f9444a','2017-11-25 16:01:23'),(57,NULL,'30a375009f934ca2882a464217436393','2017-11-25 16:01:23'),(58,NULL,'14675a70d45682449e047f5738c93bed','2017-12-11 15:53:56'),(59,NULL,'55a0598cdc42d9960012c6b32b61c424','2017-12-11 15:53:57'),(60,NULL,'4a104061de42cc6bbbd178b35e929e50','2017-12-11 15:54:32'),(61,NULL,'60de64fec333792d1df75ebdf940f822','2017-12-11 16:51:10'),(62,NULL,'68e5627669ad84ccbfd68a72a6833782','2017-12-12 19:58:45'),(63,NULL,'9ae2b6edc2700af52e80316d3913505b','2017-12-12 19:59:13'),(64,NULL,'5d0ad3e2be3ee1548df8987e816ab0c4','2017-12-12 19:59:17'),(65,NULL,'e6ceb3ca85da5fe497fc3f9c6ad7269c','2017-12-12 19:59:18');
 /*!40000 ALTER TABLE `customer_visitor` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -4935,7 +4948,7 @@ CREATE TABLE `flag` (
 
 LOCK TABLES `flag` WRITE;
 /*!40000 ALTER TABLE `flag` DISABLE KEYS */;
-INSERT INTO `flag` VALUES (1,'report_order_aggregated',0,NULL,'2017-11-03 17:23:34'),(2,'report_tax_aggregated',0,NULL,'2017-11-03 17:23:34'),(3,'report_shipping_aggregated',0,NULL,'2017-11-03 17:23:34'),(4,'report_invoiced_aggregated',0,NULL,'2017-11-03 17:23:34'),(5,'report_refunded_aggregated',0,NULL,'2017-11-03 17:23:34'),(6,'report_coupons_aggregated',0,NULL,'2017-11-15 02:00:01'),(7,'report_bestsellers_aggregated',0,NULL,'2017-11-03 17:23:34'),(8,'report_product_viewed_aggregated',0,NULL,'2017-11-03 17:23:34');
+INSERT INTO `flag` VALUES (1,'report_order_aggregated',0,NULL,'2017-12-11 16:33:06'),(2,'report_tax_aggregated',0,NULL,'2017-12-11 16:33:07'),(3,'report_shipping_aggregated',0,NULL,'2017-12-11 16:33:07'),(4,'report_invoiced_aggregated',0,NULL,'2017-12-11 16:33:07'),(5,'report_refunded_aggregated',0,NULL,'2017-12-11 16:33:07'),(6,'report_coupons_aggregated',0,NULL,'2017-12-11 16:33:07'),(7,'report_bestsellers_aggregated',0,NULL,'2017-11-03 17:23:34'),(8,'report_product_viewed_aggregated',0,NULL,'2017-11-03 17:23:34');
 /*!40000 ALTER TABLE `flag` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -5168,6 +5181,161 @@ CREATE TABLE `layout_update` (
 LOCK TABLES `layout_update` WRITE;
 /*!40000 ALTER TABLE `layout_update` DISABLE KEYS */;
 /*!40000 ALTER TABLE `layout_update` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `magestore_bannerslider_banner`
+--
+
+DROP TABLE IF EXISTS `magestore_bannerslider_banner`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `magestore_bannerslider_banner` (
+  `banner_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Banner ID',
+  `name` varchar(255) NOT NULL DEFAULT '' COMMENT 'Banner name',
+  `order_banner` int(11) DEFAULT '0' COMMENT 'Banner order',
+  `slider_id` int(11) DEFAULT NULL COMMENT 'Slider Id',
+  `status` smallint(6) NOT NULL DEFAULT '1' COMMENT 'Banner status',
+  `click_url` varchar(255) DEFAULT '' COMMENT 'Banner click url',
+  `imptotal` int(11) DEFAULT '0' COMMENT 'Banner imptotal',
+  `clicktotal` int(11) DEFAULT '0' COMMENT 'Banner click total',
+  `target` int(11) DEFAULT '0' COMMENT 'Banner target',
+  `image` varchar(255) DEFAULT NULL COMMENT 'Banner image',
+  `image_alt` varchar(255) DEFAULT NULL COMMENT 'Banner image alt',
+  `style_slide` varchar(255) DEFAULT NULL COMMENT 'Banner style',
+  `width` float DEFAULT NULL COMMENT 'Banner width',
+  `height` float DEFAULT NULL COMMENT 'Banner height',
+  `start_time` datetime DEFAULT NULL COMMENT 'Banner starting time',
+  `end_time` datetime DEFAULT NULL COMMENT 'Banner ending time',
+  PRIMARY KEY (`banner_id`),
+  KEY `MAGESTORE_BANNERSLIDER_BANNER_BANNER_ID` (`banner_id`),
+  KEY `MAGESTORE_BANNERSLIDER_BANNER_SLIDER_ID` (`slider_id`),
+  KEY `MAGESTORE_BANNERSLIDER_BANNER_STATUS` (`status`),
+  KEY `MAGESTORE_BANNERSLIDER_BANNER_START_TIME` (`start_time`),
+  KEY `MAGESTORE_BANNERSLIDER_BANNER_END_TIME` (`end_time`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='magestore_bannerslider_banner';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `magestore_bannerslider_banner`
+--
+
+LOCK TABLES `magestore_bannerslider_banner` WRITE;
+/*!40000 ALTER TABLE `magestore_bannerslider_banner` DISABLE KEYS */;
+INSERT INTO `magestore_bannerslider_banner` VALUES (1,'Banner1',0,1,1,'abcd',0,0,0,'magestore/bannerslider/images/i/m/images.jpeg',NULL,NULL,NULL,NULL,'2017-12-10 16:42:00','2018-12-10 16:42:00'),(2,'Banner2',0,1,1,NULL,0,0,0,'magestore/bannerslider/images/2/6/269397-1qbz151411055483.jpg',NULL,NULL,NULL,NULL,'2017-12-11 16:43:00','2018-12-24 16:43:00');
+/*!40000 ALTER TABLE `magestore_bannerslider_banner` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `magestore_bannerslider_report`
+--
+
+DROP TABLE IF EXISTS `magestore_bannerslider_report`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `magestore_bannerslider_report` (
+  `report_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Report ID',
+  `banner_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Banner ID',
+  `slider_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Slider ID',
+  `impmode` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Impressions mode',
+  `clicks` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Banner Clicks',
+  `date_click` datetime DEFAULT NULL COMMENT 'Banner click date time',
+  PRIMARY KEY (`report_id`),
+  KEY `MAGESTORE_BANNERSLIDER_REPORT_BANNER_ID` (`banner_id`),
+  KEY `MAGESTORE_BANNERSLIDER_REPORT_SLIDER_ID` (`slider_id`),
+  KEY `MAGESTORE_BANNERSLIDER_REPORT_IMPMODE` (`impmode`),
+  KEY `MAGESTORE_BANNERSLIDER_REPORT_CLICKS` (`clicks`),
+  KEY `MAGESTORE_BANNERSLIDER_REPORT_DATE_CLICK` (`date_click`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='magestore_bannerslider_report';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `magestore_bannerslider_report`
+--
+
+LOCK TABLES `magestore_bannerslider_report` WRITE;
+/*!40000 ALTER TABLE `magestore_bannerslider_report` DISABLE KEYS */;
+INSERT INTO `magestore_bannerslider_report` VALUES (1,1,1,3,1,'2017-12-11 00:00:00'),(2,2,1,3,3,'2017-12-11 00:00:00');
+/*!40000 ALTER TABLE `magestore_bannerslider_report` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `magestore_bannerslider_slider`
+--
+
+DROP TABLE IF EXISTS `magestore_bannerslider_slider`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `magestore_bannerslider_slider` (
+  `slider_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Slider ID',
+  `title` varchar(255) NOT NULL DEFAULT '' COMMENT 'Slider title',
+  `position` varchar(255) DEFAULT NULL COMMENT 'Slider position',
+  `show_title` smallint(6) DEFAULT '1' COMMENT 'Show Title',
+  `status` smallint(6) NOT NULL DEFAULT '1' COMMENT 'Slider status',
+  `sort_type` int(11) DEFAULT NULL COMMENT 'Sort type',
+  `description` text COMMENT 'Slider description',
+  `category_ids` varchar(255) DEFAULT NULL COMMENT 'Slider category ids',
+  `style_content` smallint(6) NOT NULL DEFAULT '0' COMMENT 'Slider style content',
+  `custom_code` text COMMENT 'Slider custom code',
+  `style_slide` varchar(255) DEFAULT NULL COMMENT 'Slider style',
+  `width` float DEFAULT NULL COMMENT 'Slider width',
+  `height` float DEFAULT NULL COMMENT 'Slider height',
+  `note_color` varchar(40) DEFAULT NULL COMMENT 'Slider note color',
+  `animationB` varchar(255) DEFAULT NULL COMMENT 'Slider animationB',
+  `caption` smallint(6) DEFAULT NULL COMMENT 'Slider caption',
+  `position_note` smallint(6) DEFAULT '1' COMMENT 'Slider position note',
+  `slider_speed` float DEFAULT NULL COMMENT 'Slider speed',
+  `url_view` varchar(255) DEFAULT NULL COMMENT 'Slider url view',
+  `min_item` smallint(6) DEFAULT NULL COMMENT 'Slider min item',
+  `max_item` smallint(6) DEFAULT NULL COMMENT 'Slider max item',
+  PRIMARY KEY (`slider_id`),
+  KEY `MAGESTORE_BANNERSLIDER_SLIDER_SLIDER_ID` (`slider_id`),
+  KEY `MAGESTORE_BANNERSLIDER_SLIDER_POSITION` (`position`),
+  KEY `MAGESTORE_BANNERSLIDER_SLIDER_STYLE_CONTENT` (`style_content`),
+  KEY `MAGESTORE_BANNERSLIDER_SLIDER_STYLE_SLIDE` (`style_slide`),
+  KEY `MAGESTORE_BANNERSLIDER_SLIDER_STATUS` (`status`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='magestore_bannerslider_slider';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `magestore_bannerslider_slider`
+--
+
+LOCK TABLES `magestore_bannerslider_slider` WRITE;
+/*!40000 ALTER TABLE `magestore_bannerslider_slider` DISABLE KEYS */;
+INSERT INTO `magestore_bannerslider_slider` VALUES (1,'sliderBar','catalog-page-bottom',2,1,1,NULL,NULL,1,NULL,'1',300,125,NULL,'fade',NULL,1,4500,NULL,NULL,NULL);
+/*!40000 ALTER TABLE `magestore_bannerslider_slider` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `magestore_bannerslider_value`
+--
+
+DROP TABLE IF EXISTS `magestore_bannerslider_value`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `magestore_bannerslider_value` (
+  `value_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Value ID',
+  `banner_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT 'Banner ID',
+  `store_id` smallint(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Store view ID',
+  `attribute_code` varchar(63) NOT NULL DEFAULT '' COMMENT 'Attribute code',
+  `value` text NOT NULL COMMENT 'Value',
+  PRIMARY KEY (`value_id`),
+  UNIQUE KEY `MAGESTORE_BANNERSLIDER_VALUE_BANNER_ID_STORE_ID_ATTRIBUTE_CODE` (`banner_id`,`store_id`,`attribute_code`),
+  KEY `MAGESTORE_BANNERSLIDER_VALUE_BANNER_ID` (`banner_id`),
+  KEY `MAGESTORE_BANNERSLIDER_VALUE_STORE_ID` (`store_id`),
+  CONSTRAINT `FK_7F63A91F003CBB8E1A00B1F0131AC1B8` FOREIGN KEY (`banner_id`) REFERENCES `magestore_bannerslider_banner` (`banner_id`) ON DELETE CASCADE,
+  CONSTRAINT `MAGESTORE_BANNERSLIDER_VALUE_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='magestore_bannerslider_value';
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `magestore_bannerslider_value`
+--
+
+LOCK TABLES `magestore_bannerslider_value` WRITE;
+/*!40000 ALTER TABLE `magestore_bannerslider_value` DISABLE KEYS */;
+/*!40000 ALTER TABLE `magestore_bannerslider_value` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -6124,7 +6292,7 @@ CREATE TABLE `quote_item` (
   CONSTRAINT `QUOTE_ITEM_PRODUCT_ID_CATALOG_PRODUCT_ENTITY_ENTITY_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE,
   CONSTRAINT `QUOTE_ITEM_QUOTE_ID_QUOTE_ENTITY_ID` FOREIGN KEY (`quote_id`) REFERENCES `quote` (`entity_id`) ON DELETE CASCADE,
   CONSTRAINT `QUOTE_ITEM_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE SET NULL
-) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Flat Quote Item';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -6509,7 +6677,7 @@ CREATE TABLE `report_event` (
   KEY `REPORT_EVENT_STORE_ID` (`store_id`),
   CONSTRAINT `REPORT_EVENT_EVENT_TYPE_ID_REPORT_EVENT_TYPES_EVENT_TYPE_ID` FOREIGN KEY (`event_type_id`) REFERENCES `report_event_types` (`event_type_id`) ON DELETE CASCADE,
   CONSTRAINT `REPORT_EVENT_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=utf8 COMMENT='Reports Event Table';
+) ENGINE=InnoDB AUTO_INCREMENT=69 DEFAULT CHARSET=utf8 COMMENT='Reports Event Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -6518,7 +6686,7 @@ CREATE TABLE `report_event` (
 
 LOCK TABLES `report_event` WRITE;
 /*!40000 ALTER TABLE `report_event` DISABLE KEYS */;
-INSERT INTO `report_event` VALUES (1,'2017-10-31 14:44:57',4,2,3,0,1),(2,'2017-10-31 17:41:31',1,3,8,1,1),(3,'2017-11-01 22:12:09',1,3,4,0,1),(4,'2017-11-01 22:12:13',4,3,4,0,1),(5,'2017-11-01 22:21:41',1,3,4,0,1),(6,'2017-11-01 22:21:45',5,3,4,0,1),(7,'2017-11-02 23:15:28',1,3,5,0,1),(8,'2017-11-02 23:26:27',1,4,5,0,1),(9,'2017-11-02 23:26:36',3,4,5,0,1),(10,'2017-11-02 23:27:53',1,3,5,0,1),(11,'2017-11-02 23:27:59',3,3,5,0,1),(12,'2017-11-15 01:32:22',4,1,29,1,1),(13,'2017-11-15 01:32:24',1,1,29,1,1),(14,'2017-11-15 18:31:41',1,1,32,1,1),(15,'2017-11-15 18:31:44',3,1,32,1,1),(16,'2017-11-15 18:36:05',1,1,32,1,1),(17,'2017-11-15 19:08:37',1,1,36,1,1),(18,'2017-11-15 19:08:40',3,1,36,1,1),(19,'2017-11-15 19:10:05',1,1,32,1,1),(20,'2017-11-15 19:13:08',1,1,6,0,1),(21,'2017-11-15 19:13:12',4,1,6,0,1),(22,'2017-11-15 19:21:10',1,1,37,1,1),(23,'2017-11-15 19:32:50',1,1,6,0,1),(24,'2017-11-15 19:32:58',1,2,6,0,1),(25,'2017-11-15 19:36:58',1,2,36,1,1),(26,'2017-11-15 19:40:54',1,1,36,1,1),(27,'2017-11-15 20:29:41',1,1,6,0,1),(28,'2017-11-15 20:29:43',3,1,6,0,1),(29,'2017-11-15 20:29:52',3,2,6,0,1),(30,'2017-11-17 01:06:12',1,1,6,0,1),(31,'2017-11-17 01:06:22',4,1,6,0,1),(32,'2017-11-17 01:18:38',4,282,43,1,1),(33,'2017-11-17 01:18:59',1,282,43,1,1),(34,'2017-11-17 01:19:39',1,282,43,1,1),(35,'2017-11-17 01:20:52',4,282,6,0,1),(36,'2017-11-17 01:24:40',4,303,6,0,1),(37,'2017-11-17 13:51:45',4,300,52,1,1),(38,'2017-11-17 13:52:43',4,300,6,0,1),(39,'2017-11-17 13:53:50',3,283,6,0,1),(40,'2017-11-17 13:53:53',3,288,6,0,1),(41,'2017-11-17 14:06:52',5,283,6,0,1),(42,'2017-11-17 14:17:18',4,288,6,0,1),(43,'2017-11-17 14:26:37',4,283,54,1,1),(44,'2017-11-17 14:26:40',3,283,54,1,1),(45,'2017-11-17 14:26:43',3,295,54,1,1),(46,'2017-11-17 14:27:03',1,295,54,1,1),(47,'2017-11-17 14:28:32',4,298,54,1,1),(48,'2017-11-17 14:35:15',5,14,7,0,1),(49,'2017-11-17 14:36:19',1,301,7,0,1),(50,'2017-11-17 14:36:24',1,242,7,0,1),(51,'2017-11-17 14:50:17',1,285,7,0,1),(52,'2017-11-17 14:51:26',1,288,7,0,1),(53,'2017-11-17 14:52:10',1,288,7,0,1),(54,'2017-11-17 14:55:49',1,288,7,0,1),(55,'2017-11-17 14:56:54',1,299,7,0,1),(56,'2017-11-17 14:58:02',1,288,7,0,1),(57,'2017-11-17 14:58:35',1,288,7,0,1),(58,'2017-11-17 15:00:36',1,288,7,0,1),(59,'2017-11-17 15:00:45',1,299,7,0,1),(60,'2017-11-17 15:02:09',1,288,7,0,1),(61,'2017-11-17 15:04:12',1,288,7,0,1),(62,'2017-11-17 15:14:28',1,6,7,0,1),(63,'2017-11-17 15:14:42',1,5,7,0,1),(64,'2017-11-17 15:23:57',1,301,7,0,1),(65,'2017-11-17 15:24:45',1,5,7,0,1),(66,'2017-11-17 15:25:30',4,5,7,0,1),(67,'2017-11-17 15:25:40',5,188,7,0,1);
+INSERT INTO `report_event` VALUES (1,'2017-10-31 14:44:57',4,2,3,0,1),(2,'2017-10-31 17:41:31',1,3,8,1,1),(3,'2017-11-01 22:12:09',1,3,4,0,1),(4,'2017-11-01 22:12:13',4,3,4,0,1),(5,'2017-11-01 22:21:41',1,3,4,0,1),(6,'2017-11-01 22:21:45',5,3,4,0,1),(7,'2017-11-02 23:15:28',1,3,5,0,1),(8,'2017-11-02 23:26:27',1,4,5,0,1),(9,'2017-11-02 23:26:36',3,4,5,0,1),(10,'2017-11-02 23:27:53',1,3,5,0,1),(11,'2017-11-02 23:27:59',3,3,5,0,1),(12,'2017-11-15 01:32:22',4,1,29,1,1),(13,'2017-11-15 01:32:24',1,1,29,1,1),(14,'2017-11-15 18:31:41',1,1,32,1,1),(15,'2017-11-15 18:31:44',3,1,32,1,1),(16,'2017-11-15 18:36:05',1,1,32,1,1),(17,'2017-11-15 19:08:37',1,1,36,1,1),(18,'2017-11-15 19:08:40',3,1,36,1,1),(19,'2017-11-15 19:10:05',1,1,32,1,1),(20,'2017-11-15 19:13:08',1,1,6,0,1),(21,'2017-11-15 19:13:12',4,1,6,0,1),(22,'2017-11-15 19:21:10',1,1,37,1,1),(23,'2017-11-15 19:32:50',1,1,6,0,1),(24,'2017-11-15 19:32:58',1,2,6,0,1),(25,'2017-11-15 19:36:58',1,2,36,1,1),(26,'2017-11-15 19:40:54',1,1,36,1,1),(27,'2017-11-15 20:29:41',1,1,6,0,1),(28,'2017-11-15 20:29:43',3,1,6,0,1),(29,'2017-11-15 20:29:52',3,2,6,0,1),(30,'2017-11-17 01:06:12',1,1,6,0,1),(31,'2017-11-17 01:06:22',4,1,6,0,1),(32,'2017-11-17 01:18:38',4,282,43,1,1),(33,'2017-11-17 01:18:59',1,282,43,1,1),(34,'2017-11-17 01:19:39',1,282,43,1,1),(35,'2017-11-17 01:20:52',4,282,6,0,1),(36,'2017-11-17 01:24:40',4,303,6,0,1),(37,'2017-11-17 13:51:45',4,300,52,1,1),(38,'2017-11-17 13:52:43',4,300,6,0,1),(39,'2017-11-17 13:53:50',3,283,6,0,1),(40,'2017-11-17 13:53:53',3,288,6,0,1),(41,'2017-11-17 14:06:52',5,283,6,0,1),(42,'2017-11-17 14:17:18',4,288,6,0,1),(43,'2017-11-17 14:26:37',4,283,54,1,1),(44,'2017-11-17 14:26:40',3,283,54,1,1),(45,'2017-11-17 14:26:43',3,295,54,1,1),(46,'2017-11-17 14:27:03',1,295,54,1,1),(47,'2017-11-17 14:28:32',4,298,54,1,1),(48,'2017-11-17 14:35:15',5,14,7,0,1),(49,'2017-11-17 14:36:19',1,301,7,0,1),(50,'2017-11-17 14:36:24',1,242,7,0,1),(51,'2017-11-17 14:50:17',1,285,7,0,1),(52,'2017-11-17 14:51:26',1,288,7,0,1),(53,'2017-11-17 14:52:10',1,288,7,0,1),(54,'2017-11-17 14:55:49',1,288,7,0,1),(55,'2017-11-17 14:56:54',1,299,7,0,1),(56,'2017-11-17 14:58:02',1,288,7,0,1),(57,'2017-11-17 14:58:35',1,288,7,0,1),(58,'2017-11-17 15:00:36',1,288,7,0,1),(59,'2017-11-17 15:00:45',1,299,7,0,1),(60,'2017-11-17 15:02:09',1,288,7,0,1),(61,'2017-11-17 15:04:12',1,288,7,0,1),(62,'2017-11-17 15:14:28',1,6,7,0,1),(63,'2017-11-17 15:14:42',1,5,7,0,1),(64,'2017-11-17 15:23:57',1,301,7,0,1),(65,'2017-11-17 15:24:45',1,5,7,0,1),(66,'2017-11-17 15:25:30',4,5,7,0,1),(67,'2017-11-17 15:25:40',5,188,7,0,1),(68,'2017-12-11 16:47:42',1,1,61,1,1);
 /*!40000 ALTER TABLE `report_event` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -6672,7 +6840,7 @@ CREATE TABLE `report_viewed_product_index` (
   CONSTRAINT `REPORT_VIEWED_PRD_IDX_CSTR_ID_CSTR_ENTT_ENTT_ID` FOREIGN KEY (`customer_id`) REFERENCES `customer_entity` (`entity_id`) ON DELETE CASCADE,
   CONSTRAINT `REPORT_VIEWED_PRD_IDX_PRD_ID_CAT_PRD_ENTT_ENTT_ID` FOREIGN KEY (`product_id`) REFERENCES `catalog_product_entity` (`entity_id`) ON DELETE CASCADE,
   CONSTRAINT `REPORT_VIEWED_PRODUCT_INDEX_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE SET NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table';
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Reports Viewed Product Index Table';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -6681,6 +6849,7 @@ CREATE TABLE `report_viewed_product_index` (
 
 LOCK TABLES `report_viewed_product_index` WRITE;
 /*!40000 ALTER TABLE `report_viewed_product_index` DISABLE KEYS */;
+INSERT INTO `report_viewed_product_index` VALUES (1,61,NULL,1,1,'2017-12-11 16:47:42');
 /*!40000 ALTER TABLE `report_viewed_product_index` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -6832,7 +7001,7 @@ CREATE TABLE `review` (
   KEY `REVIEW_ENTITY_PK_VALUE` (`entity_pk_value`),
   CONSTRAINT `REVIEW_ENTITY_ID_REVIEW_ENTITY_ENTITY_ID` FOREIGN KEY (`entity_id`) REFERENCES `review_entity` (`entity_id`) ON DELETE CASCADE,
   CONSTRAINT `REVIEW_STATUS_ID_REVIEW_STATUS_STATUS_ID` FOREIGN KEY (`status_id`) REFERENCES `review_status` (`status_id`) ON DELETE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Review base information';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Review base information';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -6919,7 +7088,7 @@ CREATE TABLE `review_entity_summary` (
   PRIMARY KEY (`primary_id`),
   KEY `REVIEW_ENTITY_SUMMARY_STORE_ID` (`store_id`),
   CONSTRAINT `REVIEW_ENTITY_SUMMARY_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COMMENT='Review aggregates';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Review aggregates';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -7855,7 +8024,7 @@ CREATE TABLE `sales_order_aggregated_created` (
   UNIQUE KEY `SALES_ORDER_AGGREGATED_CREATED_PERIOD_STORE_ID_ORDER_STATUS` (`period`,`store_id`,`order_status`),
   KEY `SALES_ORDER_AGGREGATED_CREATED_STORE_ID` (`store_id`),
   CONSTRAINT `SALES_ORDER_AGGREGATED_CREATED_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE SET NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Order Aggregated Created';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Order Aggregated Created';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -7864,6 +8033,7 @@ CREATE TABLE `sales_order_aggregated_created` (
 
 LOCK TABLES `sales_order_aggregated_created` WRITE;
 /*!40000 ALTER TABLE `sales_order_aggregated_created` DISABLE KEYS */;
+INSERT INTO `sales_order_aggregated_created` VALUES (1,'2017-11-15',1,'canceled',1,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,151.2900,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000),(2,'2017-11-17',1,'processing',1,1.0000,0.0000,505.7700,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,91.7700,0.0000,15.0000,0.0000,0.0000,0.0000),(4,'2017-11-15',0,'canceled',1,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,151.2900,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000),(5,'2017-11-17',0,'processing',1,1.0000,0.0000,505.7700,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,91.7700,0.0000,15.0000,0.0000,0.0000,0.0000);
 /*!40000 ALTER TABLE `sales_order_aggregated_created` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -7899,7 +8069,7 @@ CREATE TABLE `sales_order_aggregated_updated` (
   UNIQUE KEY `SALES_ORDER_AGGREGATED_UPDATED_PERIOD_STORE_ID_ORDER_STATUS` (`period`,`store_id`,`order_status`),
   KEY `SALES_ORDER_AGGREGATED_UPDATED_STORE_ID` (`store_id`),
   CONSTRAINT `SALES_ORDER_AGGREGATED_UPDATED_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE SET NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Order Aggregated Updated';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Sales Order Aggregated Updated';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -7908,6 +8078,7 @@ CREATE TABLE `sales_order_aggregated_updated` (
 
 LOCK TABLES `sales_order_aggregated_updated` WRITE;
 /*!40000 ALTER TABLE `sales_order_aggregated_updated` DISABLE KEYS */;
+INSERT INTO `sales_order_aggregated_updated` VALUES (1,'2017-11-15',1,'canceled',1,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,151.2900,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000),(2,'2017-11-17',1,'processing',1,1.0000,0.0000,505.7700,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,91.7700,0.0000,15.0000,0.0000,0.0000,0.0000),(4,'2017-11-15',0,'canceled',1,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,151.2900,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000),(5,'2017-11-17',0,'processing',1,1.0000,0.0000,505.7700,0.0000,0.0000,0.0000,0.0000,0.0000,0.0000,91.7700,0.0000,15.0000,0.0000,0.0000,0.0000);
 /*!40000 ALTER TABLE `sales_order_aggregated_updated` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -8758,7 +8929,7 @@ CREATE TABLE `sales_shipping_aggregated_order` (
   UNIQUE KEY `UNQ_C05FAE47282EEA68654D0924E946761F` (`period`,`store_id`,`order_status`,`shipping_description`),
   KEY `SALES_SHIPPING_AGGREGATED_ORDER_STORE_ID` (`store_id`),
   CONSTRAINT `SALES_SHIPPING_AGGREGATED_ORDER_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE SET NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Sales Shipping Aggregated Order';
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='Sales Shipping Aggregated Order';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -8767,6 +8938,7 @@ CREATE TABLE `sales_shipping_aggregated_order` (
 
 LOCK TABLES `sales_shipping_aggregated_order` WRITE;
 /*!40000 ALTER TABLE `sales_shipping_aggregated_order` DISABLE KEYS */;
+INSERT INTO `sales_shipping_aggregated_order` VALUES (1,'2017-11-17',1,'processing','PocztaPolska - Kurier',1,15.0000,NULL),(2,'2017-11-17',0,'processing','PocztaPolska - Kurier',1,15.0000,NULL);
 /*!40000 ALTER TABLE `sales_shipping_aggregated_order` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -9420,7 +9592,7 @@ CREATE TABLE `setup_module` (
 
 LOCK TABLES `setup_module` WRITE;
 /*!40000 ALTER TABLE `setup_module` DISABLE KEYS */;
-INSERT INTO `setup_module` VALUES ('Magento_AdminNotification','2.0.0','2.0.0'),('Magento_AdvancedPricingImportExport','2.0.0','2.0.0'),('Magento_Authorization','2.0.0','2.0.0'),('Magento_Authorizenet','2.0.0','2.0.0'),('Magento_Backend','2.0.0','2.0.0'),('Magento_Backup','2.0.0','2.0.0'),('Magento_Braintree','2.0.0','2.0.0'),('Magento_Bundle','2.0.1','2.0.1'),('Magento_BundleImportExport','2.0.0','2.0.0'),('Magento_CacheInvalidate','2.0.0','2.0.0'),('Magento_Captcha','2.0.0','2.0.0'),('Magento_Catalog','2.0.3','2.0.3'),('Magento_CatalogImportExport','2.0.0','2.0.0'),('Magento_CatalogInventory','2.0.0','2.0.0'),('Magento_CatalogRule','2.0.0','2.0.0'),('Magento_CatalogRuleConfigurable','2.0.0','2.0.0'),('Magento_CatalogSearch','2.0.0','2.0.0'),('Magento_CatalogUrlRewrite','2.0.0','2.0.0'),('Magento_CatalogWidget','2.0.0','2.0.0'),('Magento_Checkout','2.0.0','2.0.0'),('Magento_CheckoutAgreements','2.0.1','2.0.1'),('Magento_Cms','2.0.0','2.0.0'),('Magento_CmsUrlRewrite','2.0.0','2.0.0'),('Magento_Config','2.0.0','2.0.0'),('Magento_ConfigurableImportExport','2.0.0','2.0.0'),('Magento_ConfigurableProduct','2.0.0','2.0.0'),('Magento_Contact','2.0.0','2.0.0'),('Magento_Cookie','2.0.0','2.0.0'),('Magento_Cron','2.0.0','2.0.0'),('Magento_CurrencySymbol','2.0.0','2.0.0'),('Magento_Customer','2.0.6','2.0.6'),('Magento_CustomerImportExport','2.0.0','2.0.0'),('Magento_Deploy','2.0.0','2.0.0'),('Magento_Developer','2.0.0','2.0.0'),('Magento_Dhl','2.0.0','2.0.0'),('Magento_Directory','2.0.0','2.0.0'),('Magento_Downloadable','2.0.0','2.0.0'),('Magento_DownloadableImportExport','2.0.0','2.0.0'),('Magento_Eav','2.0.0','2.0.0'),('Magento_Email','2.0.0','2.0.0'),('Magento_EncryptionKey','2.0.0','2.0.0'),('Magento_Fedex','2.0.0','2.0.0'),('Magento_GiftMessage','2.0.0','2.0.0'),('Magento_GoogleAdwords','2.0.0','2.0.0'),('Magento_GoogleAnalytics','2.0.0','2.0.0'),('Magento_GoogleOptimizer','2.0.0','2.0.0'),('Magento_GroupedImportExport','2.0.0','2.0.0'),('Magento_GroupedProduct','2.0.0','2.0.0'),('Magento_ImportExport','2.0.1','2.0.1'),('Magento_Indexer','2.0.0','2.0.0'),('Magento_Integration','2.0.1','2.0.1'),('Magento_LayeredNavigation','2.0.0','2.0.0'),('Magento_Marketplace','1.0.0','1.0.0'),('Magento_MediaStorage','2.0.0','2.0.0'),('Magento_Msrp','2.0.0','2.0.0'),('Magento_Multishipping','2.0.0','2.0.0'),('Magento_NewRelicReporting','2.0.0','2.0.0'),('Magento_Newsletter','2.0.0','2.0.0'),('Magento_OfflinePayments','2.0.0','2.0.0'),('Magento_OfflineShipping','2.0.0','2.0.0'),('Magento_PageCache','2.0.0','2.0.0'),('Magento_Payment','2.0.0','2.0.0'),('Magento_Paypal','2.0.0','2.0.0'),('Magento_Persistent','2.0.0','2.0.0'),('Magento_ProductAlert','2.0.0','2.0.0'),('Magento_ProductVideo','2.0.0.2','2.0.0.2'),('Magento_Quote','2.0.2','2.0.2'),('Magento_Reports','2.0.0','2.0.0'),('Magento_RequireJs','2.0.0','2.0.0'),('Magento_Review','2.0.0','2.0.0'),('Magento_Rss','2.0.0','2.0.0'),('Magento_Rule','2.0.0','2.0.0'),('Magento_Sales','2.0.1','2.0.1'),('Magento_SalesInventory','1.0.0','1.0.0'),('Magento_SalesRule','2.0.0','2.0.0'),('Magento_SalesSequence','2.0.0','2.0.0'),('Magento_SampleData','2.0.0','2.0.0'),('Magento_Search','2.0.1','2.0.1'),('Magento_SendFriend','2.0.0','2.0.0'),('Magento_Shipping','2.0.0','2.0.0'),('Magento_Sitemap','2.0.0','2.0.0'),('Magento_Store','2.0.0','2.0.0'),('Magento_Swagger','2.0.0','2.0.0'),('Magento_Swatches','2.0.0','2.0.0'),('Magento_Tax','2.0.1','2.0.1'),('Magento_TaxImportExport','2.0.0','2.0.0'),('Magento_Theme','2.0.0','2.0.0'),('Magento_Translation','2.0.0','2.0.0'),('Magento_Ui','2.0.0','2.0.0'),('Magento_Ups','2.0.0','2.0.0'),('Magento_UrlRewrite','2.0.0','2.0.0'),('Magento_User','2.0.1','2.0.1'),('Magento_Usps','2.0.1','2.0.1'),('Magento_Variable','2.0.0','2.0.0'),('Magento_Version','2.0.0','2.0.0'),('Magento_Webapi','2.0.0','2.0.0'),('Magento_WebapiSecurity','2.0.0','2.0.0'),('Magento_Weee','2.0.0','2.0.0'),('Magento_Widget','2.0.0','2.0.0'),('Magento_Wishlist','2.0.0','2.0.0'),('Mageplaza_Core','1.0.0','1.0.0');
+INSERT INTO `setup_module` VALUES ('Magento_AdminNotification','2.0.0','2.0.0'),('Magento_AdvancedPricingImportExport','2.0.0','2.0.0'),('Magento_Authorization','2.0.0','2.0.0'),('Magento_Authorizenet','2.0.0','2.0.0'),('Magento_Backend','2.0.0','2.0.0'),('Magento_Backup','2.0.0','2.0.0'),('Magento_Braintree','2.0.0','2.0.0'),('Magento_Bundle','2.0.1','2.0.1'),('Magento_BundleImportExport','2.0.0','2.0.0'),('Magento_CacheInvalidate','2.0.0','2.0.0'),('Magento_Captcha','2.0.0','2.0.0'),('Magento_Catalog','2.0.3','2.0.3'),('Magento_CatalogImportExport','2.0.0','2.0.0'),('Magento_CatalogInventory','2.0.0','2.0.0'),('Magento_CatalogRule','2.0.0','2.0.0'),('Magento_CatalogRuleConfigurable','2.0.0','2.0.0'),('Magento_CatalogSearch','2.0.0','2.0.0'),('Magento_CatalogUrlRewrite','2.0.0','2.0.0'),('Magento_CatalogWidget','2.0.0','2.0.0'),('Magento_Checkout','2.0.0','2.0.0'),('Magento_CheckoutAgreements','2.0.1','2.0.1'),('Magento_Cms','2.0.0','2.0.0'),('Magento_CmsUrlRewrite','2.0.0','2.0.0'),('Magento_Config','2.0.0','2.0.0'),('Magento_ConfigurableImportExport','2.0.0','2.0.0'),('Magento_ConfigurableProduct','2.0.0','2.0.0'),('Magento_Contact','2.0.0','2.0.0'),('Magento_Cookie','2.0.0','2.0.0'),('Magento_Cron','2.0.0','2.0.0'),('Magento_CurrencySymbol','2.0.0','2.0.0'),('Magento_Customer','2.0.6','2.0.6'),('Magento_CustomerImportExport','2.0.0','2.0.0'),('Magento_Deploy','2.0.0','2.0.0'),('Magento_Developer','2.0.0','2.0.0'),('Magento_Dhl','2.0.0','2.0.0'),('Magento_Directory','2.0.0','2.0.0'),('Magento_Downloadable','2.0.0','2.0.0'),('Magento_DownloadableImportExport','2.0.0','2.0.0'),('Magento_Eav','2.0.0','2.0.0'),('Magento_Email','2.0.0','2.0.0'),('Magento_EncryptionKey','2.0.0','2.0.0'),('Magento_Fedex','2.0.0','2.0.0'),('Magento_GiftMessage','2.0.0','2.0.0'),('Magento_GoogleAdwords','2.0.0','2.0.0'),('Magento_GoogleAnalytics','2.0.0','2.0.0'),('Magento_GoogleOptimizer','2.0.0','2.0.0'),('Magento_GroupedImportExport','2.0.0','2.0.0'),('Magento_GroupedProduct','2.0.0','2.0.0'),('Magento_ImportExport','2.0.1','2.0.1'),('Magento_Indexer','2.0.0','2.0.0'),('Magento_Integration','2.0.1','2.0.1'),('Magento_LayeredNavigation','2.0.0','2.0.0'),('Magento_Marketplace','1.0.0','1.0.0'),('Magento_MediaStorage','2.0.0','2.0.0'),('Magento_Msrp','2.0.0','2.0.0'),('Magento_Multishipping','2.0.0','2.0.0'),('Magento_NewRelicReporting','2.0.0','2.0.0'),('Magento_Newsletter','2.0.0','2.0.0'),('Magento_OfflinePayments','2.0.0','2.0.0'),('Magento_OfflineShipping','2.0.0','2.0.0'),('Magento_PageCache','2.0.0','2.0.0'),('Magento_Payment','2.0.0','2.0.0'),('Magento_Paypal','2.0.0','2.0.0'),('Magento_Persistent','2.0.0','2.0.0'),('Magento_ProductAlert','2.0.0','2.0.0'),('Magento_ProductVideo','2.0.0.2','2.0.0.2'),('Magento_Quote','2.0.2','2.0.2'),('Magento_Reports','2.0.0','2.0.0'),('Magento_RequireJs','2.0.0','2.0.0'),('Magento_Review','2.0.0','2.0.0'),('Magento_Rss','2.0.0','2.0.0'),('Magento_Rule','2.0.0','2.0.0'),('Magento_Sales','2.0.1','2.0.1'),('Magento_SalesInventory','1.0.0','1.0.0'),('Magento_SalesRule','2.0.0','2.0.0'),('Magento_SalesSequence','2.0.0','2.0.0'),('Magento_SampleData','2.0.0','2.0.0'),('Magento_Search','2.0.1','2.0.1'),('Magento_SendFriend','2.0.0','2.0.0'),('Magento_Shipping','2.0.0','2.0.0'),('Magento_Sitemap','2.0.0','2.0.0'),('Magento_Store','2.0.0','2.0.0'),('Magento_Swagger','2.0.0','2.0.0'),('Magento_Swatches','2.0.0','2.0.0'),('Magento_Tax','2.0.1','2.0.1'),('Magento_TaxImportExport','2.0.0','2.0.0'),('Magento_Theme','2.0.0','2.0.0'),('Magento_Translation','2.0.0','2.0.0'),('Magento_Ui','2.0.0','2.0.0'),('Magento_Ups','2.0.0','2.0.0'),('Magento_UrlRewrite','2.0.0','2.0.0'),('Magento_User','2.0.1','2.0.1'),('Magento_Usps','2.0.1','2.0.1'),('Magento_Variable','2.0.0','2.0.0'),('Magento_Version','2.0.0','2.0.0'),('Magento_Webapi','2.0.0','2.0.0'),('Magento_WebapiSecurity','2.0.0','2.0.0'),('Magento_Weee','2.0.0','2.0.0'),('Magento_Widget','2.0.0','2.0.0'),('Magento_Wishlist','2.0.0','2.0.0'),('Mageplaza_Core','1.0.0','1.0.0'),('Magestore_Bannerslider','1.7.0','1.7.0');
 /*!40000 ALTER TABLE `setup_module` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -9753,7 +9925,7 @@ CREATE TABLE `tax_order_aggregated_created` (
   UNIQUE KEY `TAX_ORDER_AGGRED_CREATED_PERIOD_STORE_ID_CODE_PERCENT_ORDER_STS` (`period`,`store_id`,`code`,`percent`,`order_status`),
   KEY `TAX_ORDER_AGGREGATED_CREATED_STORE_ID` (`store_id`),
   CONSTRAINT `TAX_ORDER_AGGREGATED_CREATED_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Tax Order Aggregation';
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Tax Order Aggregation';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -9762,6 +9934,7 @@ CREATE TABLE `tax_order_aggregated_created` (
 
 LOCK TABLES `tax_order_aggregated_created` WRITE;
 /*!40000 ALTER TABLE `tax_order_aggregated_created` DISABLE KEYS */;
+INSERT INTO `tax_order_aggregated_created` VALUES (1,'2017-11-15',1,'VAT-POL','canceled',23,1,28.29),(2,'2017-11-17',1,'VAT-POL','processing',23,1,91.77),(3,'2017-11-15',0,'VAT-POL','canceled',23,1,28.29),(4,'2017-11-17',0,'VAT-POL','processing',23,1,91.77);
 /*!40000 ALTER TABLE `tax_order_aggregated_created` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -9785,7 +9958,7 @@ CREATE TABLE `tax_order_aggregated_updated` (
   UNIQUE KEY `TAX_ORDER_AGGRED_UPDATED_PERIOD_STORE_ID_CODE_PERCENT_ORDER_STS` (`period`,`store_id`,`code`,`percent`,`order_status`),
   KEY `TAX_ORDER_AGGREGATED_UPDATED_STORE_ID` (`store_id`),
   CONSTRAINT `TAX_ORDER_AGGREGATED_UPDATED_STORE_ID_STORE_STORE_ID` FOREIGN KEY (`store_id`) REFERENCES `store` (`store_id`) ON DELETE CASCADE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Tax Order Aggregated Updated';
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='Tax Order Aggregated Updated';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -9794,6 +9967,7 @@ CREATE TABLE `tax_order_aggregated_updated` (
 
 LOCK TABLES `tax_order_aggregated_updated` WRITE;
 /*!40000 ALTER TABLE `tax_order_aggregated_updated` DISABLE KEYS */;
+INSERT INTO `tax_order_aggregated_updated` VALUES (1,'2017-11-15',1,'VAT-POL','canceled',23,1,28.29),(2,'2017-11-17',1,'VAT-POL','processing',23,1,91.77),(3,'2017-11-15',0,'VAT-POL','canceled',23,1,28.29),(4,'2017-11-17',0,'VAT-POL','processing',23,1,91.77);
 /*!40000 ALTER TABLE `tax_order_aggregated_updated` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -9942,7 +10116,7 @@ CREATE TABLE `url_rewrite` (
   UNIQUE KEY `URL_REWRITE_REQUEST_PATH_STORE_ID` (`request_path`,`store_id`),
   KEY `URL_REWRITE_TARGET_PATH` (`target_path`),
   KEY `URL_REWRITE_STORE_ID_ENTITY_ID` (`store_id`,`entity_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=927 DEFAULT CHARSET=utf8 COMMENT='Url Rewrites';
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8 COMMENT='Url Rewrites';
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -9951,7 +10125,7 @@ CREATE TABLE `url_rewrite` (
 
 LOCK TABLES `url_rewrite` WRITE;
 /*!40000 ALTER TABLE `url_rewrite` DISABLE KEYS */;
-INSERT INTO `url_rewrite` VALUES (1,'cms-page',1,'no-route','cms/page/view/page_id/1',0,1,NULL,1,NULL),(2,'cms-page',2,'home','cms/page/view/page_id/2',0,1,NULL,1,NULL),(3,'cms-page',3,'enable-cookies','cms/page/view/page_id/3',0,1,NULL,1,NULL),(4,'cms-page',4,'privacy-policy-cookie-restriction-mode','cms/page/view/page_id/4',0,1,NULL,1,NULL);
+INSERT INTO `url_rewrite` VALUES (1,'cms-page',1,'no-route','cms/page/view/page_id/1',0,1,NULL,1,NULL),(2,'cms-page',2,'home','cms/page/view/page_id/2',0,1,NULL,1,NULL),(3,'cms-page',3,'enable-cookies','cms/page/view/page_id/3',0,1,NULL,1,NULL),(4,'cms-page',4,'privacy-policy-cookie-restriction-mode','cms/page/view/page_id/4',0,1,NULL,1,NULL),(5,'product',1,'abcd.html','catalog/product/view/id/1',0,1,NULL,1,NULL);
 /*!40000 ALTER TABLE `url_rewrite` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -10260,4 +10434,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-11-25 16:07:37
+-- Dump completed on 2017-12-12 20:00:43
