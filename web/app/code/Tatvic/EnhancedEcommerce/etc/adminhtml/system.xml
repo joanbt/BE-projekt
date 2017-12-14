@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Config/etc/system_file.xsd">
+    <system>
+        <tab id="Tatvic" translate="label" sortOrder="10">
+            <label>Tatvic</label>
+        </tab>
+ 
+<section id="tatvic_ee" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Tatvic Analytics</label>
+            <tab>Tatvic</tab>
+            <resource>Tatvic_EnhnacedEcommerce::ee</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Enhanced Ecommerce</label>
+                <field id="enable" translate="label comment" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable Enhanced Ecommerce Extension</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                    <comment>
+                        Enable/Disable Enhanced-Ecommerce Tracking
+                    </comment>
+                </field>
+                <field id="ua_id" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>UA-ID</label>
+                    <depends>
+                        <field id="enable">1</field>
+                    </depends>
+                    <validate>required-entry</validate>
+                    <comment>
+                       Enter UA-ID
+                    </comment>
+                </field>
+            </group>
+        </section>
+ 
+    </system>
+</config>
