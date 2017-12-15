@@ -40,6 +40,22 @@ _gaq.push(['_trackTiming', 'Action', text, end-st]);
 });
 
 
+$(".magestore-bannerslider").find("img").each(function (i) {
+    $(this).attr("alt", "alt"+i);
+});
+
+$(".magestore-bannerslider").find("img").on("click", function (event) {
+  //  event.preventDefault();
+    var text = $(this).attr("alt");
+    if (text === "alt0") {
+        ga('send', 'event', 'banner1', 'banners');
+    } else if (text === "alt1") {
+        ga('send', 'event', 'banner2', 'banners');
+
+    }
+
+})
+
 });
 
 
