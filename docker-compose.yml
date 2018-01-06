@@ -58,3 +58,9 @@ services:
       PMA_HOST: "mysql"
       PMA_PORT: 3306
 
+  java:
+    image: java:8
+    volumes: 
+      - ./java/mahout:/java
+    command: ["/usr/lib/jvm/java-8-openjdk-amd64/bin/java", "-jar", "java/target/mahoutRecommender-jar-with-dependencies.jar"]
+
