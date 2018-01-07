@@ -22,7 +22,7 @@ import org.apache.mahout.cf.taste.impl.similarity.*;
 public class MahoutOutput {
 
     public static void main(String[] args) {
-    get("/:id", (req, res) -> {
+    get("/", (req, res) -> {
             String client_id = req.params(":id");
             String response = "";
 	    String resp="";
