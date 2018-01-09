@@ -22,7 +22,7 @@ import org.apache.mahout.cf.taste.impl.similarity.*;
 public class MahoutOutput {
 
     public static void main(String[] args) {
-    get("/", (req, res) -> {
+	get("/:id", (req, res) -> {
             String client_id = req.params(":id");
             String response = "";
 	    String resp="";
@@ -31,7 +31,7 @@ resp+="client_id={"+client_id+"}";
                 Connection conn = DriverManager.getConnection("jdbc:mysql://mysql:3306/ikea_db","admin", "admin1234");
                 Statement stmt = conn.createStatement();
 
-                ResultSet rs = stmt.executeQuery("SELECT review_detail.customer_id,catalog_product_entity.entity_id,title " +
+                ResultSet rs = stmt.executeQuery("SELECT review_detail.customer_id,catalog_product_entity.entity_id,value " +
                         "FROM catalog_product_entity join review on catalog_product_entity.entity_id=review.entity_pk_value " +
                         "join review_detail on review.review_id=review_detail.review_id " +
 		"join rating_option_vote on review.review_id=rating_option_vote.review_id ");
@@ -39,7 +39,7 @@ resp+="client_id={"+client_id+"}";
 
                     response += rs.getString("customer_id") + ","
                             + rs.getString("entity_id") + ","
-                            + rs.getString("title")+ "\n";
+                            + rs.getString("value")+ "\n";
 
                 }
 		//resp+=response;
@@ -51,7 +51,7 @@ resp+="client_id={"+client_id+"}";
 	DataModel model = new FileDataModel(new File("/java/src/main/java/recommender/dataset.csv"));
 	ItemSimilarity itemSimilarity = new EuclideanDistanceSimilarity (model);
 	Recommender recommender = new GenericItemBasedRecommender(model, itemSimilarity);
-	List<RecommendedItem> recommendations = recommender.recommend(8, 3);//9->clientid
+	List<RecommendedItem> recommendations = recommender.recommend(Integer.parseInt(client_id), 3);
 
 	if(recommendations.size()==0)
 		resp+="EMPTY";
