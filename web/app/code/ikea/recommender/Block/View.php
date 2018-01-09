@@ -20,6 +20,12 @@ protected $_productRepository;
     {
 	$resp=file_get_contents('http://java:4567/');
 	$ret="";
+	$start=strpos($resp,"{");
+	$end=strpos($resp,"}");
+	$client_id= substr($resp, $start, $end-$start+1);
+	$resp=substr($resp,$end);
+
+
 	$size=3;
 	for($i=0;$i<$size;$i++)
 	{
@@ -29,6 +35,7 @@ protected $_productRepository;
 		$resp=substr($resp,$end+1);
 
 	}
+	$ret="<table>";
 	for($i=0;$i<$size;$i++)
 	{
 
@@ -37,9 +44,8 @@ protected $_productRepository;
 		$item_id[$i]=substr($sub[$i], $start+1, $end-$start-1);
 		$product = $this->_productRepository->getById($item_id[$i]);
  		$productImageUrl = $this->getUrl('pub/media/catalog').'product'.$product->getImage();
-
-
-		$ret=$ret.$item_id[$i]."   <a>".$product->getProductUrl().$productImageUrl."</a>"."<br>";
+		$ret=$ret."<tr><td>".$product->getPrice().$this->_storeManager->getStore()->getCurrentCurrency()->getCode()." </td><td>  <a href=\"".$product->getProductUrl()."\">link</a></td><td> <img src=\"".$productImageUrl."\"></td></tr>";
+		//$ret=$ret."<tr><td>".$product->getPrice().$this->_storeManager->getStore()->getCurrentCurrency()->getCode()." </td><td>  <a href=\"".$product->getProductUrl()."link</a></td><td> <img src=\"".$productImageUrl."\"></td></tr><br>";
 
 	}
         return __($ret);

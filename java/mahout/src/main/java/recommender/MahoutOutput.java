@@ -26,14 +26,15 @@ public class MahoutOutput {
             String client_id = req.params(":id");
             String response = "";
 	    String resp="";
-resp+="client_id"+client_id;
+resp+="client_id={"+client_id+"}";
             try {
                 Connection conn = DriverManager.getConnection("jdbc:mysql://mysql:3306/ikea_db","admin", "admin1234");
                 Statement stmt = conn.createStatement();
 
-                ResultSet rs = stmt.executeQuery("SELECT customer_id,catalog_product_entity.entity_id,title " +
+                ResultSet rs = stmt.executeQuery("SELECT review_detail.customer_id,catalog_product_entity.entity_id,title " +
                         "FROM catalog_product_entity join review on catalog_product_entity.entity_id=review.entity_pk_value " +
-                        "join review_detail on review.review_id=review_detail.review_id");
+                        "join review_detail on review.review_id=review_detail.review_id " +
+		"join rating_option_vote on review.review_id=rating_option_vote.review_id ");
                 while ( rs.next() ) {
 
                     response += rs.getString("customer_id") + ","
@@ -50,7 +51,7 @@ resp+="client_id"+client_id;
 	DataModel model = new FileDataModel(new File("/java/src/main/java/recommender/dataset.csv"));
 	ItemSimilarity itemSimilarity = new EuclideanDistanceSimilarity (model);
 	Recommender recommender = new GenericItemBasedRecommender(model, itemSimilarity);
-	List<RecommendedItem> recommendations = recommender.recommend(9, 3);//8->clientid
+	List<RecommendedItem> recommendations = recommender.recommend(8, 3);//9->clientid
 
 	if(recommendations.size()==0)
 		resp+="EMPTY";
